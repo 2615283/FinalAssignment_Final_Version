@@ -28,6 +28,9 @@ public class PlayerTurns : MonoBehaviour
     public GameObject DrawTreasureP2;
     public GameObject DrawFloodP2;
 
+    public bool Player1Turn;
+    public bool Player2Turn;
+
     public GameObject WaterRise;
 
     private void Awake()
@@ -98,6 +101,9 @@ public class PlayerTurns : MonoBehaviour
         positionScript.SecondTitle.SetActive(true);
 
         WaterRise.SetActive(false);
+
+        Player1Turn = false;
+        Player2Turn = true;
     }
 
     public void Player2TurnEndTasks()
@@ -136,5 +142,8 @@ public class PlayerTurns : MonoBehaviour
         positionScript.SecondTitle.SetActive(false);
 
         WaterRise.SetActive(false);
+
+        Player1Turn = false;
+        Player2Turn = true;
     }
 }

@@ -107,6 +107,15 @@ public class ObjectManager : MonoBehaviour
         Player2TreasureCardsSpaces.Add(Space8P2);
     }
 
+    private void Update()
+    {
+        for (int i = 0; i < TilesInstances.Count; i++)
+        {
+            TilesInstances[i].pos = TilesInstances[i].Tile.transform.position;
+        }
+
+    }
+
     [System.Serializable]
     public class Tiles
     {
@@ -114,6 +123,7 @@ public class ObjectManager : MonoBehaviour
         public string TileName;
         public TextMeshProUGUI TileNameText;
         public GameObject Tile;
+        public Vector3 pos;
 
         [Header("Tile State")]
         public bool Flooded;
@@ -141,6 +151,13 @@ public class ObjectManager : MonoBehaviour
         public TextMeshProUGUI TypeText;
         public GameObject Title;
         public bool Active;
+
+        public bool Yellow;
+        public bool Red;
+        public bool Blue;
+        public bool Black;
+        public bool Green;
+        public bool White;
     }
 
     [System.Serializable]

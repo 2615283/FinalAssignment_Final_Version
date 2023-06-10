@@ -22,10 +22,15 @@ public class Setup : MonoBehaviour
     public GameObject Begin;
 
     ObjectManager script;
+    Positions positionScript;
+    TokenMovement movementScript;
+    PlayerTurns turnsScript;
 
     private void Awake()
     {
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
+        positionScript = GameObject.Find("GameCanvas").GetComponent<Positions>();
+        turnsScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
     }
 
     private void Start()
@@ -106,6 +111,8 @@ public class Setup : MonoBehaviour
     {
         SetUp.SetActive(false);
         Player2.SetActive(false);
+        positionScript.SecondTitle.SetActive(false);
         Player1Actions.SetActive(true);
+        turnsScript.Player1Turn = true;
     }
 }
