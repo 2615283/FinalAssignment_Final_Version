@@ -15,6 +15,13 @@ public class TokenMovement : MonoBehaviour
     public GameObject P1MovePanel;
     public GameObject P2MovePanel;
 
+    public GameObject P1DrawTreasureCards;
+    public GameObject P2DrawTreasureCards;
+    public GameObject P1DrawFloodCards;
+    public GameObject P2DrawFloodCards;
+    public GameObject P1Done;
+    public GameObject P2Done;
+
     ObjectManager script;
     Setup setupScript;
     PlayerTurns turnScript;
@@ -67,6 +74,36 @@ public class TokenMovement : MonoBehaviour
                             blackToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
                         }
                         else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Engineer" && script.AdventurersInstances[i].Title.transform.position == posScript.player1Title.transform.position)
+                        {
+                            redToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                    }
+                }
+                else if (turnScript.Player2Turn == true)
+                {
+                    if (posScript.Indicator[j].click == true)
+                    {
+                        if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Explorer" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
+                        {
+                            greenToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                        else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Pilot" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
+                        {
+                            blueToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                        else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Messenger" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
+                        {
+                            whiteToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                        else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Navigator" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
+                        {
+                            yellowToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                        else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Diver" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
+                        {
+                            blackToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
+                        }
+                        else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Engineer" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
                         {
                             redToken.transform.position = posScript.Indicator[j].IndicatorObject.transform.position;
                         }
@@ -127,8 +164,24 @@ public class TokenMovement : MonoBehaviour
 
     public void DoneMoveP1()
     {
-        setupScript.Player1Actions.SetActive(true);
-        P1MovePanel.SetActive(false);
+        if (turnScript.Player1 == 3)
+        {
+            P1DrawTreasureCards.SetActive(true);
+            P1DrawFloodCards.SetActive(true);
+            P1Done.SetActive(true);
+            P1MovePanel.SetActive(false);
+            turnScript.MoveP1.SetActive(false);
+            turnScript.ShoreUpP1.SetActive(false);
+            turnScript.GiveTreasureP1.SetActive(false);
+            turnScript.CaptureTreasureP1.SetActive(false);
+            turnScript.EndTasksP1.SetActive(false);
+            setupScript.Player1Actions.SetActive(true);
+        }
+        else
+        {
+            setupScript.Player1Actions.SetActive(true);
+            P1MovePanel.SetActive(false);
+        }
     }
 
     public void MoveP2Button()
@@ -139,8 +192,24 @@ public class TokenMovement : MonoBehaviour
 
     public void DoneMoveP2()
     {
-        setupScript.Player2Actions.SetActive(true);
-        P2MovePanel.SetActive(false);
+        if (turnScript.Player2 == 3)
+        {
+            P2DrawTreasureCards.SetActive(true);
+            P2DrawFloodCards.SetActive(true);
+            P2Done.SetActive(true);
+            P2MovePanel.SetActive(false);
+            turnScript.MoveP2.SetActive(false);
+            turnScript.ShoreUpP2.SetActive(false);
+            turnScript.GiveTreasureP2.SetActive(false);
+            turnScript.CaptureTreasureP2.SetActive(false);
+            turnScript.EndTasksP2.SetActive(false);
+            setupScript.Player2Actions.SetActive(true);
+        }
+        else
+        {
+            setupScript.Player2Actions.SetActive(true);
+            P2MovePanel.SetActive(false);
+        }
     }
 
     public void Movement()

@@ -20,6 +20,7 @@ public class IndicatorDeterminer : MonoBehaviour
         {
             GameObject Indicator = positionScript.Indicator[i].IndicatorObject;
             Indicator.GetComponent<Button>().enabled = false;
+            Indicator.GetComponent<RawImage>().enabled = false;
         }
     }
 
@@ -29,6 +30,7 @@ public class IndicatorDeterminer : MonoBehaviour
         {
             GameObject Indicator = positionScript.Indicator[i].IndicatorObject;
             Indicator.GetComponent<Button>().enabled = true;
+            Indicator.GetComponent<RawImage>().enabled = true;
         }
     }
 

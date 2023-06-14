@@ -23,30 +23,30 @@ public class Positions : MonoBehaviour
 
     //positions
     #region
-    private Vector3 pos1;
-    private Vector3 pos2;
-    private Vector3 pos3;
-    private Vector3 pos4;
-    private Vector3 pos5;
-    private Vector3 pos6;
-    private Vector3 pos7;
-    private Vector3 pos8;
-    private Vector3 pos9;
-    private Vector3 pos10;
-    private Vector3 pos11;
-    private Vector3 pos12;
-    private Vector3 pos13;
-    private Vector3 pos14;
-    private Vector3 pos15;
-    private Vector3 pos16;
-    private Vector3 pos17;
-    private Vector3 pos18;
-    private Vector3 pos19;
-    private Vector3 pos20;
-    private Vector3 pos21;
-    private Vector3 pos22;
-    private Vector3 pos23;
-    private Vector3 pos24;
+    public Vector3 pos1;
+    public Vector3 pos2;
+    public Vector3 pos3;
+    public Vector3 pos4;
+    public Vector3 pos5;
+    public Vector3 pos6;
+    public Vector3 pos7;
+    public Vector3 pos8;
+    public Vector3 pos9;
+    public Vector3 pos10;
+    public Vector3 pos11;
+    public Vector3 pos12;
+    public Vector3 pos13;
+    public Vector3 pos14;
+    public Vector3 pos15;
+    public Vector3 pos16;
+    public Vector3 pos17;
+    public Vector3 pos18;
+    public Vector3 pos19;
+    public Vector3 pos20;
+    public Vector3 pos21;
+    public Vector3 pos22;
+    public Vector3 pos23;
+    public Vector3 pos24;
     #endregion
 
     public List<Indicators> Indicator = new List<Indicators>();
@@ -255,21 +255,30 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+
                     }
                     else if (greenToken.transform.position == pos18 || greenToken.transform.position == pos22 || greenToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (greenToken.transform.position == pos15 || greenToken.transform.position == pos23 || greenToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (greenToken.transform.position == pos16 || greenToken.transform.position == pos24 || greenToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -285,21 +294,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos18 || blueToken.transform.position == pos22 || blueToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos15 || blueToken.transform.position == pos23 || blueToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos16 || blueToken.transform.position == pos24 || blueToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -315,21 +332,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos18 || blackToken.transform.position == pos22 || blackToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos15 || blackToken.transform.position == pos23 || blackToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos16 || blackToken.transform.position == pos24 || blackToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -345,21 +370,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos18 || redToken.transform.position == pos22 || redToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos15 || redToken.transform.position == pos23 || redToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos16 || redToken.transform.position == pos24 || redToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -375,21 +408,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos18 || whiteToken.transform.position == pos22 || whiteToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos15 || whiteToken.transform.position == pos23 || whiteToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos16 || whiteToken.transform.position == pos24 || whiteToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -405,21 +446,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos18 || yellowToken.transform.position == pos22 || yellowToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos15 || yellowToken.transform.position == pos23 || yellowToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos16 || yellowToken.transform.position == pos24 || yellowToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -445,21 +494,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (greenToken.transform.position == pos18 || greenToken.transform.position == pos22 || greenToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (greenToken.transform.position == pos15 || greenToken.transform.position == pos23 || greenToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (greenToken.transform.position == pos16 || greenToken.transform.position == pos24 || greenToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -475,21 +532,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos18 || blueToken.transform.position == pos22 || blueToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos15 || blueToken.transform.position == pos23 || blueToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blueToken.transform.position == pos16 || blueToken.transform.position == pos24 || blueToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -505,21 +570,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos18 || blackToken.transform.position == pos22 || blackToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos15 || blackToken.transform.position == pos23 || blackToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (blackToken.transform.position == pos16 || blackToken.transform.position == pos24 || blackToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = blackToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = blackToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -535,21 +608,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos18 || redToken.transform.position == pos22 || redToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos15 || redToken.transform.position == pos23 || redToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (redToken.transform.position == pos16 || redToken.transform.position == pos24 || redToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = redToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = redToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -565,21 +646,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos18 || whiteToken.transform.position == pos22 || whiteToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos15 || whiteToken.transform.position == pos23 || whiteToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (whiteToken.transform.position == pos16 || whiteToken.transform.position == pos24 || whiteToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = whiteToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = whiteToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {
@@ -595,21 +684,29 @@ public class Positions : MonoBehaviour
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos18 || yellowToken.transform.position == pos22 || yellowToken.transform.position == pos14)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos15 || yellowToken.transform.position == pos23 || yellowToken.transform.position == pos19)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else if (yellowToken.transform.position == pos16 || yellowToken.transform.position == pos24 || yellowToken.transform.position == pos20)
                     {
                         Indicator[0].IndicatorObject.transform.position = yellowToken.transform.position - new Vector3(1.4f, 0, 0);
                         Indicator[1].IndicatorObject.transform.position = yellowToken.transform.position + new Vector3(0, 1.4f, 0);
+                        Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                        Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                     }
                     else
                     {

@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerTurns : MonoBehaviour
 {
     Setup setupScript;
     Positions positionScript;
     ObjectManager script;
+    TokenMovement movementScript;
+    ShoreUp shoreScript;
 
     public GameObject MoveP1;
     public GameObject ShoreUpP1;
@@ -31,13 +34,24 @@ public class PlayerTurns : MonoBehaviour
     public bool Player1Turn;
     public bool Player2Turn;
 
+    public int Player1;
+    public int Player2;
+
     public GameObject WaterRise;
+
+    public GameObject MoveAgain1;
+    public GameObject MoveAgain2;
+
+    public GameObject ShoreUpAgain1;
+    public GameObject ShoreUpAgain2;
 
     private void Awake()
     {
         setupScript = GameObject.Find("GameCanvas").GetComponent<Setup>();
         positionScript = GameObject.Find("GameCanvas").GetComponent<Positions>();
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
+        movementScript = GameObject.Find("GameCanvas").GetComponent<TokenMovement>();
+        shoreScript = GameObject.Find("GameCanvas").GetComponent<ShoreUp>();
     }
 
     private void Start()
@@ -65,6 +79,20 @@ public class PlayerTurns : MonoBehaviour
         WaterRise.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (Player1 == 3)
+        {
+            MoveAgain1.SetActive(false);
+            ShoreUpAgain1.SetActive(true);
+        }
+        else if (Player2 == 3)
+        {
+            MoveAgain2.SetActive(false);
+            ShoreUpAgain2.SetActive(true);
+        }
+    }
+
     public void Player1TurnEndTasks()
     {
         MoveP1.SetActive(false);
@@ -82,11 +110,15 @@ public class PlayerTurns : MonoBehaviour
 
     public void Player1Done()
     {
+        TurnRevert();
+
         MoveP1.SetActive(true);
         ShoreUpP1.SetActive(true);
         GiveTreasureP1.SetActive(true);
         CaptureTreasureP1.SetActive(true);
         EndTasksP1.SetActive(true);
+        MoveAgain1.SetActive(true);
+        ShoreUpAgain1.SetActive(true);
 
         DrawTreasureP1.SetActive(false);
         DrawFloodP1.SetActive(false);
@@ -123,11 +155,15 @@ public class PlayerTurns : MonoBehaviour
 
     public void Player2Done()
     {
+        TurnRevert();
+
         MoveP2.SetActive(true);
         ShoreUpP2.SetActive(true);
         GiveTreasureP2.SetActive(true);
         CaptureTreasureP2.SetActive(true);
         EndTasksP2.SetActive(true);
+        MoveAgain2.SetActive(true);
+        ShoreUpAgain2.SetActive(true);
 
         DrawTreasureP2.SetActive(false);
         DrawFloodP2.SetActive(false);
@@ -145,5 +181,29 @@ public class PlayerTurns : MonoBehaviour
 
         Player1Turn = false;
         Player2Turn = true;
+    }
+
+    public void TurnsIndicator()
+    {
+        if (Player1Turn == true)
+        {
+            Player1 += 1;
+        }
+        else if (Player2Turn == true)
+        {
+            Player2 += 1;
+        }
+    }
+
+    public void TurnRevert()
+    {
+        if (Player1Turn == true)
+        {
+            Player1 = 0;
+        }
+        else if (Player2Turn == true)
+        {
+            Player2 = 0;
+        }
     }
 }
