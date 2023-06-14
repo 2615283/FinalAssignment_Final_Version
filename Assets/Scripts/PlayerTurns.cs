@@ -84,12 +84,12 @@ public class PlayerTurns : MonoBehaviour
         if (Player1 == 3)
         {
             MoveAgain1.SetActive(false);
-            ShoreUpAgain1.SetActive(true);
+            ShoreUpAgain1.SetActive(false);
         }
         else if (Player2 == 3)
         {
             MoveAgain2.SetActive(false);
-            ShoreUpAgain2.SetActive(true);
+            ShoreUpAgain2.SetActive(false);
         }
     }
 
@@ -179,8 +179,8 @@ public class PlayerTurns : MonoBehaviour
 
         WaterRise.SetActive(false);
 
-        Player1Turn = false;
-        Player2Turn = true;
+        Player1Turn = true;
+        Player2Turn = false;
     }
 
     public void TurnsIndicator()

@@ -9,6 +9,7 @@ public class ShoreUp : MonoBehaviour
     PlayerTurns turnsScript;
     Setup setupScript;
     Positions posScript;
+    TokenMovement moveScript;
 
     public GameObject ShoreUpPanelP1;
     public GameObject ShoreUpPanelP2;
@@ -27,6 +28,7 @@ public class ShoreUp : MonoBehaviour
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
         turnsScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
         posScript = GameObject.Find("GameCanvas").GetComponent<Positions>();
+        moveScript = GameObject.Find("GameCanvas").GetComponent<TokenMovement>();
     }
 
     private void Start()
@@ -1489,13 +1491,30 @@ public class ShoreUp : MonoBehaviour
 
     public void ShoreUpDoneP1()
     {
-        turnsScript.MoveP1.SetActive(true);
-        turnsScript.ShoreUpP1.SetActive(true);
-        turnsScript.GiveTreasureP1.SetActive(true);
-        turnsScript.CaptureTreasureP1.SetActive(true);
-        turnsScript.EndTasksP1.SetActive(true);
+        if (turnsScript.Player1 == 3)
+        {
+            turnsScript.MoveP1.SetActive(false);
+            turnsScript.ShoreUpP1.SetActive(false);
+            turnsScript.GiveTreasureP1.SetActive(false);
+            turnsScript.CaptureTreasureP1.SetActive(false);
+            turnsScript.EndTasksP1.SetActive(false);
 
-        ShoreUpPanelP1.SetActive(false);
+            moveScript.P1DrawTreasureCards.SetActive(true);
+            moveScript.P1DrawFloodCards.SetActive(true);
+            moveScript.P1Done.SetActive(true);
+
+            ShoreUpPanelP1.SetActive(false);
+        }
+        else
+        {
+            turnsScript.MoveP1.SetActive(true);
+            turnsScript.ShoreUpP1.SetActive(true);
+            turnsScript.GiveTreasureP1.SetActive(true);
+            turnsScript.CaptureTreasureP1.SetActive(true);
+            turnsScript.EndTasksP1.SetActive(true);
+
+            ShoreUpPanelP1.SetActive(false);
+        }        
     }
 
     public void ShoreUpP2Panel()
@@ -1511,13 +1530,30 @@ public class ShoreUp : MonoBehaviour
 
     public void ShoreUpDoneP2()
     {
-        turnsScript.MoveP2.SetActive(true);
-        turnsScript.ShoreUpP2.SetActive(true);
-        turnsScript.GiveTreasureP2.SetActive(true);
-        turnsScript.CaptureTreasureP2.SetActive(true);
-        turnsScript.EndTasksP2.SetActive(true);
+        if (turnsScript.Player2 == 3)
+        {
+            turnsScript.MoveP2.SetActive(false);
+            turnsScript.ShoreUpP2.SetActive(false);
+            turnsScript.GiveTreasureP2.SetActive(false);
+            turnsScript.CaptureTreasureP2.SetActive(false);
+            turnsScript.EndTasksP2.SetActive(false);
 
-        ShoreUpPanelP2.SetActive(false);
+            moveScript.P2DrawTreasureCards.SetActive(true);
+            moveScript.P2DrawFloodCards.SetActive(true);
+            moveScript.P2Done.SetActive(true);
+
+            ShoreUpPanelP2.SetActive(false);
+        }
+        else
+        {
+            turnsScript.MoveP2.SetActive(true);
+            turnsScript.ShoreUpP2.SetActive(true);
+            turnsScript.GiveTreasureP2.SetActive(true);
+            turnsScript.CaptureTreasureP2.SetActive(true);
+            turnsScript.EndTasksP2.SetActive(true);
+
+            ShoreUpPanelP1.SetActive(false);
+        }
     }
 
     public void DisablingButtons()
