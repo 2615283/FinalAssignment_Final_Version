@@ -1465,6 +1465,7 @@ public class ShoreUp : MonoBehaviour
             if (script.TilesInstances[i].Flooded == false && script.TilesInstances[i].Tile.GetComponent<Image>().color == Color.cyan)
             {
                 script.TilesInstances[i].Tile.GetComponent<Image>().color = Color.white;
+                script.Flooded.Remove(script.TilesInstances[i].Tile);
             }
         }
 
@@ -1500,8 +1501,6 @@ public class ShoreUp : MonoBehaviour
             turnsScript.EndTasksP1.SetActive(false);
 
             moveScript.P1DrawTreasureCards.SetActive(true);
-            moveScript.P1DrawFloodCards.SetActive(true);
-            moveScript.P1Done.SetActive(true);
 
             ShoreUpPanelP1.SetActive(false);
         }
@@ -1539,8 +1538,6 @@ public class ShoreUp : MonoBehaviour
             turnsScript.EndTasksP2.SetActive(false);
 
             moveScript.P2DrawTreasureCards.SetActive(true);
-            moveScript.P2DrawFloodCards.SetActive(true);
-            moveScript.P2Done.SetActive(true);
 
             ShoreUpPanelP2.SetActive(false);
         }

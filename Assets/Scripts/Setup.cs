@@ -25,12 +25,14 @@ public class Setup : MonoBehaviour
     Positions positionScript;
     TokenMovement movementScript;
     PlayerTurns turnsScript;
+    TreasureCardDiscard discardScript;
 
     private void Awake()
     {
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
         positionScript = GameObject.Find("GameCanvas").GetComponent<Positions>();
         turnsScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
+        discardScript = GameObject.Find("GameCanvas").GetComponent<TreasureCardDiscard>();
     }
 
     private void Start()
@@ -47,11 +49,14 @@ public class Setup : MonoBehaviour
         treasureCardsButton.SetActive(false);
         floodInitialButton.SetActive(false);
         Begin.SetActive(false);
+
+        playerButton.SetActive(false);
     }
 
     public void BoardButton()
     {
         boardButton.SetActive(false);
+        playerButton.SetActive(true);
     }
 
     public void PlayerButton()
@@ -62,6 +67,9 @@ public class Setup : MonoBehaviour
         adventurerButton.SetActive(true);
         treasureCardsButton.SetActive(true);
         floodInitialButton.SetActive(true);
+
+        discardScript.DiscardPanelP1.SetActive(false);
+        discardScript.DiscardPanelP2.SetActive(false);
     }
 
     public void AdventurerButton()
@@ -94,6 +102,7 @@ public class Setup : MonoBehaviour
             Tile.GetComponent<Image>().color = Color.cyan;
             script.FloodCards.Remove(Tile);
             script.FloodCardsDiscard.Add(Tile);
+            script.Flooded.Add(Tile);
         }
 
         for (int i = 0; i < script.TilesInstances.Count; i++)

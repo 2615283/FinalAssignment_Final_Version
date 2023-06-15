@@ -102,10 +102,17 @@ public class PlayerTurns : MonoBehaviour
         EndTasksP1.SetActive(false);
 
         DrawTreasureP1.SetActive(true);
-        DrawFloodP1.SetActive(true);
-        DoneP1.SetActive(true);
+    }
 
+    public void Player1TreasureCard()
+    {
+        DrawFloodP1.SetActive(true);
         WaterRise.SetActive(true);
+    }
+
+    public void Player1FloodCard()
+    {
+        DoneP1.SetActive(true);
     }
 
     public void Player1Done()
@@ -147,10 +154,17 @@ public class PlayerTurns : MonoBehaviour
         EndTasksP2.SetActive(false);
 
         DrawTreasureP2.SetActive(true);
-        DrawFloodP2.SetActive(true);
-        DoneP2.SetActive(true);
+    }
 
+    public void Player2TreasureCard()
+    {
+        DrawFloodP2.SetActive(true);
         WaterRise.SetActive(true);
+    }
+
+    public void Player2FloodCard()
+    {
+        DoneP2.SetActive(true);
     }
 
     public void Player2Done()

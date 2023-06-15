@@ -167,8 +167,6 @@ public class TokenMovement : MonoBehaviour
         if (turnScript.Player1 == 3)
         {
             P1DrawTreasureCards.SetActive(true);
-            P1DrawFloodCards.SetActive(true);
-            P1Done.SetActive(true);
             P1MovePanel.SetActive(false);
             turnScript.MoveP1.SetActive(false);
             turnScript.ShoreUpP1.SetActive(false);
@@ -195,8 +193,6 @@ public class TokenMovement : MonoBehaviour
         if (turnScript.Player2 == 3)
         {
             P2DrawTreasureCards.SetActive(true);
-            P2DrawFloodCards.SetActive(true);
-            P2Done.SetActive(true);
             P2MovePanel.SetActive(false);
             turnScript.MoveP2.SetActive(false);
             turnScript.ShoreUpP2.SetActive(false);

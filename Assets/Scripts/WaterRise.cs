@@ -8,8 +8,21 @@ public class WaterRise : MonoBehaviour
     public TextMeshProUGUI WaterLevel;
     public TextMeshProUGUI DrawCards;
 
+    public GameObject WaterRise1;
+    public GameObject WaterRise2;
+    public GameObject WaterRise3;
+
     public int WaterLevelInt = 1;
-    public int DrawCardsInt = 3;
+    public int DrawCardsInt = 2;
+
+    ObjectManager script;
+    PlayerTurns turnScript;
+
+    private void Awake()
+    {
+        script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
+        turnScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
+    }
 
     private void Start()
     {
@@ -20,5 +33,100 @@ public class WaterRise : MonoBehaviour
     {
         WaterLevel.text = "" + WaterLevelInt;
         DrawCards.text = "" + DrawCardsInt;
+
+        if (WaterLevelInt == 2)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);                
+            }
+        }
+        else if (WaterLevelInt == 3)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+
+        if (turnScript.Player1Turn == true)
+        {
+            if (script.Player1TreasureCards.Contains(WaterRise1))
+            {
+                script.Player1TreasureCards.Remove(WaterRise1);
+                script.TreasureCardsDiscard.Add(WaterRise1);
+                WaterRise1.transform.position = new Vector3(20, 0, 0);
+                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+            else if (script.Player1TreasureCards.Contains(WaterRise2))
+            {
+                script.Player1TreasureCards.Remove(WaterRise2);
+                script.TreasureCardsDiscard.Add(WaterRise2);
+                WaterRise2.transform.position = new Vector3(20, 0, 0);
+                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+            else if (script.Player1TreasureCards.Contains(WaterRise3))
+            {
+                script.Player1TreasureCards.Remove(WaterRise3);
+                script.TreasureCardsDiscard.Add(WaterRise3);
+                WaterRise3.transform.position = new Vector3(20, 0, 0);
+                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+        }
+        else if (turnScript.Player2Turn == true)
+        {
+            if (script.Player2TreasureCards.Contains(WaterRise1))
+            {
+                script.Player2TreasureCards.Remove(WaterRise1);
+                script.TreasureCardsDiscard.Add(WaterRise1);
+                WaterRise1.transform.position = new Vector3(20, 0, 0);
+                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+            else if (script.Player2TreasureCards.Contains(WaterRise2))
+            {
+                script.Player2TreasureCards.Remove(WaterRise2);
+                script.TreasureCardsDiscard.Add(WaterRise2);
+                WaterRise2.transform.position = new Vector3(20, 0, 0);
+                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+            else if (script.Player2TreasureCards.Contains(WaterRise3))
+            {
+                script.Player2TreasureCards.Remove(WaterRise3);
+                script.TreasureCardsDiscard.Add(WaterRise3);
+                WaterRise3.transform.position = new Vector3(20, 0, 0);
+                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
+
+                WaterLevelInt += 1;
+            }
+        }
+
+        if (WaterLevelInt == 1 || WaterLevelInt == 2)
+        {
+            DrawCardsInt = 2;
+        }
+        else if (WaterLevelInt == 3 || WaterLevelInt == 4 || WaterLevelInt == 5)
+        {
+            DrawCardsInt = 3;
+        }
+        else if (WaterLevelInt == 6 || WaterLevelInt == 7)
+        {
+            DrawCardsInt = 4;
+        }
+        else if (WaterLevelInt == 8 || WaterLevelInt == 9)
+        {
+            DrawCardsInt = 5;
+        }
     }
 }

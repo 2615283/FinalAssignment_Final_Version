@@ -29,7 +29,10 @@ public class ObjectManager : MonoBehaviour
     [SerializeField] public List<TreasureCards> WaterRiseInstances = new List<TreasureCards>();
 
     public List<GameObject> TilesObjects = new List<GameObject>();
+    public List<GameObject> Flooded = new List<GameObject>();
+    public List<GameObject> Sunk = new List<GameObject>();
     public List<GameObject> TreasureCardsObjects = new List<GameObject>();
+    public List<GameObject> TreasureCardsDiscard = new List<GameObject>();
     public List<GameObject> WaterRiseObjects = new List<GameObject>();
     public List<GameObject> AdventurerCardsObjects = new List<GameObject>();
     public List<GameObject> FloodCards = new List<GameObject>();
@@ -127,7 +130,6 @@ public class ObjectManager : MonoBehaviour
 
         [Header("Tile State")]
         public bool Flooded;
-        public bool Sunk;
 
         [Header("StartingTile?")]
         public bool Yellow;
@@ -166,6 +168,9 @@ public class ObjectManager : MonoBehaviour
         public string TreasureCardType;
         public TextMeshProUGUI CardTypeText;
         public GameObject CardType;
+        public GameObject DiscardButt;
+
+        public bool Discard;
 
         public bool OceansChalice;
         public bool WindStatue;

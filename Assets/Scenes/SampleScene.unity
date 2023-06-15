@@ -228,6 +228,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &14384442 stripped
@@ -451,7 +483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
-      value: TreasureCard (22)
+      value: Water Rise3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -854,6 +890,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &100464682 stripped
@@ -877,6 +945,141 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &100771636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100771637}
+  - component: {fileID: 100771639}
+  - component: {fileID: 100771638}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &100771637
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100771636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1814959962}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.7, y: 4.7}
+  m_SizeDelta: {x: 200.33, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &100771638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100771636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Please Discard Cards
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &100771639
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100771636}
+  m_CullTransparentMesh: 1
 --- !u!1001 &101985666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1990,6 +2193,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8612614527023732874, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
   m_PrefabInstance: {fileID: 152720397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &159865221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1847957358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &166612133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,7 +2260,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 166612135}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575931682}
+        m_TargetAssemblyTypeName: DrawFloodCard, Assembly-CSharp
+        m_MethodName: DrawFloodCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931682}
+        m_TargetAssemblyTypeName: DrawFloodCard, Assembly-CSharp
+        m_MethodName: FloodCardsButtP2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931674}
+        m_TargetAssemblyTypeName: PlayerTurns, Assembly-CSharp
+        m_MethodName: Player2FloodCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &166612135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,8 +2368,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp16
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2225,6 +2477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+--- !u!1 &170562056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 830081913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &178163940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2234,7 +2491,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2250,7 +2507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2266,7 +2523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -2515,8 +2772,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp19
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2765,6 +3030,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
+--- !u!1 &213307633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 721611466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &219328977 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2911596740098856134, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
@@ -2785,7 +3055,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2801,7 +3071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2817,7 +3087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -3739,7 +4009,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 319502877}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575931680}
+        m_TargetAssemblyTypeName: DrawTreasureCard, Assembly-CSharp
+        m_MethodName: DrawTreasureCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931681}
+        m_TargetAssemblyTypeName: TreasureCardDiscard, Assembly-CSharp
+        m_MethodName: DiscardStuff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931674}
+        m_TargetAssemblyTypeName: PlayerTurns, Assembly-CSharp
+        m_MethodName: Player2TreasureCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &319502877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3788,6 +4094,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
   m_PrefabInstance: {fileID: 169218980}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &337124958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 14384441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &340468153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3797,7 +4108,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3813,7 +4124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUp8
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -3829,7 +4140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -4724,6 +5035,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
+--- !u!1 &356091877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1884261662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &370864032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4818,6 +5134,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -5032,7 +5380,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 394892157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575931677}
+        m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
+        m_MethodName: positionOfIndsP1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &394892157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5274,7 +5634,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5290,7 +5650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUp1
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5306,7 +5666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -6295,10 +6655,20 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
   m_PrefabInstance: {fileID: 410106811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &452680285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2882861204836260091, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
+  m_PrefabInstance: {fileID: 2289038391195324372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &452680286 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4108706644792435070, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
   m_PrefabInstance: {fileID: 2289038391195324372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &463402008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1989740722}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &465087639
 GameObject:
@@ -6935,6 +7305,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &514313924 stripped
@@ -7150,9 +7552,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TokenMovement, Assembly-CSharp
-        m_MethodName: DisableButton
+      - m_Target: {fileID: 575931678}
+        m_TargetAssemblyTypeName: Treasures, Assembly-CSharp
+        m_MethodName: TreasureInitial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7483,6 +7885,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561149403}
   m_CullTransparentMesh: 1
+--- !u!1 &568168026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 47934793}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &570639552 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2911596740098856134, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
@@ -7588,6 +7995,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -7747,6 +8186,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575194578}
   m_CullTransparentMesh: 1
+--- !u!1 &575737447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2882861204836260091, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
+  m_PrefabInstance: {fileID: 423734550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &575737448 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4108706644792435070, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
@@ -7771,6 +8215,11 @@ GameObject:
   - component: {fileID: 575931675}
   - component: {fileID: 575931676}
   - component: {fileID: 575931677}
+  - component: {fileID: 575931678}
+  - component: {fileID: 575931679}
+  - component: {fileID: 575931680}
+  - component: {fileID: 575931681}
+  - component: {fileID: 575931682}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -7851,9 +8300,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2005407801}
   - {fileID: 699245030}
   - {fileID: 966550327}
+  - {fileID: 2005407801}
   - {fileID: 1650600672}
   - {fileID: 1990651686}
   - {fileID: 342468216}
@@ -7903,7 +8352,6 @@ MonoBehaviour:
     Tile: {fileID: 452018951}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7919,7 +8367,6 @@ MonoBehaviour:
     Tile: {fileID: 1380964338}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7935,7 +8382,6 @@ MonoBehaviour:
     Tile: {fileID: 814922018}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7951,7 +8397,6 @@ MonoBehaviour:
     Tile: {fileID: 1083134841}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7967,7 +8412,6 @@ MonoBehaviour:
     Tile: {fileID: 50837946}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7983,7 +8427,6 @@ MonoBehaviour:
     Tile: {fileID: 1653571375}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -7999,7 +8442,6 @@ MonoBehaviour:
     Tile: {fileID: 959772405}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 1
     Blue: 0
@@ -8015,7 +8457,6 @@ MonoBehaviour:
     Tile: {fileID: 57049582}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8031,7 +8472,6 @@ MonoBehaviour:
     Tile: {fileID: 1004588762}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8047,7 +8487,6 @@ MonoBehaviour:
     Tile: {fileID: 833365945}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8063,7 +8502,6 @@ MonoBehaviour:
     Tile: {fileID: 1458459454}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8079,7 +8517,6 @@ MonoBehaviour:
     Tile: {fileID: 1527808620}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8095,7 +8532,6 @@ MonoBehaviour:
     Tile: {fileID: 1133800422}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 1
@@ -8111,7 +8547,6 @@ MonoBehaviour:
     Tile: {fileID: 103807162}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8127,7 +8562,6 @@ MonoBehaviour:
     Tile: {fileID: 1290554066}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8143,7 +8577,6 @@ MonoBehaviour:
     Tile: {fileID: 322026459}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8159,7 +8592,6 @@ MonoBehaviour:
     Tile: {fileID: 785639354}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8175,7 +8607,6 @@ MonoBehaviour:
     Tile: {fileID: 1465941735}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8191,7 +8622,6 @@ MonoBehaviour:
     Tile: {fileID: 94144850}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8207,7 +8637,6 @@ MonoBehaviour:
     Tile: {fileID: 626710546}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8223,7 +8652,6 @@ MonoBehaviour:
     Tile: {fileID: 2105454352}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 1
     Red: 0
     Blue: 0
@@ -8239,7 +8667,6 @@ MonoBehaviour:
     Tile: {fileID: 557474184}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8255,7 +8682,6 @@ MonoBehaviour:
     Tile: {fileID: 1657650924}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8271,7 +8697,6 @@ MonoBehaviour:
     Tile: {fileID: 1728963071}
     pos: {x: 0, y: 0, z: 0}
     Flooded: 0
-    Sunk: 0
     Yellow: 0
     Red: 0
     Blue: 0
@@ -8347,6 +8772,8 @@ MonoBehaviour:
   - TreasureCardType: Earth Stone
     CardTypeText: {fileID: 588976965472196079}
     CardType: {fileID: 588976965472196078}
+    DiscardButt: {fileID: 1098726942}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8357,6 +8784,8 @@ MonoBehaviour:
   - TreasureCardType: Earth Stone
     CardTypeText: {fileID: 999742030}
     CardType: {fileID: 999742029}
+    DiscardButt: {fileID: 1700262763}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8367,6 +8796,8 @@ MonoBehaviour:
   - TreasureCardType: Earth Stone
     CardTypeText: {fileID: 926779090}
     CardType: {fileID: 926779089}
+    DiscardButt: {fileID: 1098481787}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8377,6 +8808,8 @@ MonoBehaviour:
   - TreasureCardType: Earth Stone
     CardTypeText: {fileID: 1652875454}
     CardType: {fileID: 1652875453}
+    DiscardButt: {fileID: 1179588937}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8387,6 +8820,8 @@ MonoBehaviour:
   - TreasureCardType: Earth Stone
     CardTypeText: {fileID: 14384444}
     CardType: {fileID: 14384443}
+    DiscardButt: {fileID: 337124958}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8397,6 +8832,8 @@ MonoBehaviour:
   - TreasureCardType: Statue of the Wind
     CardTypeText: {fileID: 1884261665}
     CardType: {fileID: 1884261664}
+    DiscardButt: {fileID: 356091877}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 1
     FireCrystal: 0
@@ -8407,6 +8844,8 @@ MonoBehaviour:
   - TreasureCardType: Statue of the Wind
     CardTypeText: {fileID: 962430517}
     CardType: {fileID: 962430516}
+    DiscardButt: {fileID: 765979380}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 1
     FireCrystal: 0
@@ -8417,6 +8856,8 @@ MonoBehaviour:
   - TreasureCardType: Statue of the Wind
     CardTypeText: {fileID: 100464684}
     CardType: {fileID: 100464683}
+    DiscardButt: {fileID: 1981430893}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 1
     FireCrystal: 0
@@ -8427,6 +8868,8 @@ MonoBehaviour:
   - TreasureCardType: Statue of the Wind
     CardTypeText: {fileID: 1505045031}
     CardType: {fileID: 1505045030}
+    DiscardButt: {fileID: 1162083399}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 1
     FireCrystal: 0
@@ -8437,6 +8880,8 @@ MonoBehaviour:
   - TreasureCardType: Statue of the Wind
     CardTypeText: {fileID: 1667586003}
     CardType: {fileID: 1667586002}
+    DiscardButt: {fileID: 1522209741}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 1
     FireCrystal: 0
@@ -8447,6 +8892,8 @@ MonoBehaviour:
   - TreasureCardType: Crystal of Fire
     CardTypeText: {fileID: 574868442}
     CardType: {fileID: 574868441}
+    DiscardButt: {fileID: 1858113948}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 1
@@ -8457,6 +8904,8 @@ MonoBehaviour:
   - TreasureCardType: Crystal of Fire
     CardTypeText: {fileID: 1261626602}
     CardType: {fileID: 1261626601}
+    DiscardButt: {fileID: 982173106}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 1
@@ -8467,6 +8916,8 @@ MonoBehaviour:
   - TreasureCardType: Crystal of Fire
     CardTypeText: {fileID: 712119062}
     CardType: {fileID: 712119061}
+    DiscardButt: {fileID: 1194172967}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 1
@@ -8477,6 +8928,8 @@ MonoBehaviour:
   - TreasureCardType: Crystal of Fire
     CardTypeText: {fileID: 370864035}
     CardType: {fileID: 370864034}
+    DiscardButt: {fileID: 653890818}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 1
@@ -8487,6 +8940,8 @@ MonoBehaviour:
   - TreasureCardType: Crystal of Fire
     CardTypeText: {fileID: 913043067}
     CardType: {fileID: 913043066}
+    DiscardButt: {fileID: 1236335034}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 1
@@ -8497,6 +8952,8 @@ MonoBehaviour:
   - TreasureCardType: Ocean's Chalice
     CardTypeText: {fileID: 830081916}
     CardType: {fileID: 830081915}
+    DiscardButt: {fileID: 170562056}
+    Discard: 0
     OceansChalice: 1
     WindStatue: 0
     FireCrystal: 0
@@ -8507,6 +8964,8 @@ MonoBehaviour:
   - TreasureCardType: Ocean's Chalice
     CardTypeText: {fileID: 721611469}
     CardType: {fileID: 721611468}
+    DiscardButt: {fileID: 213307633}
+    Discard: 0
     OceansChalice: 1
     WindStatue: 0
     FireCrystal: 0
@@ -8517,6 +8976,8 @@ MonoBehaviour:
   - TreasureCardType: Ocean's Chalice
     CardTypeText: {fileID: 514313926}
     CardType: {fileID: 514313925}
+    DiscardButt: {fileID: 1141189889}
+    Discard: 0
     OceansChalice: 1
     WindStatue: 0
     FireCrystal: 0
@@ -8527,6 +8988,8 @@ MonoBehaviour:
   - TreasureCardType: Ocean's Chalice
     CardTypeText: {fileID: 1719418190}
     CardType: {fileID: 1719418189}
+    DiscardButt: {fileID: 878620152}
+    Discard: 0
     OceansChalice: 1
     WindStatue: 0
     FireCrystal: 0
@@ -8537,6 +9000,8 @@ MonoBehaviour:
   - TreasureCardType: Ocean's Chalice
     CardTypeText: {fileID: 1066708696}
     CardType: {fileID: 1066708695}
+    DiscardButt: {fileID: 631528035}
+    Discard: 0
     OceansChalice: 1
     WindStatue: 0
     FireCrystal: 0
@@ -8547,6 +9012,8 @@ MonoBehaviour:
   - TreasureCardType: Helicopter Lift
     CardTypeText: {fileID: 1018769143}
     CardType: {fileID: 1018769142}
+    DiscardButt: {fileID: 882739073}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8557,6 +9024,8 @@ MonoBehaviour:
   - TreasureCardType: Helicopter Lift
     CardTypeText: {fileID: 1391135019}
     CardType: {fileID: 1391135018}
+    DiscardButt: {fileID: 1867205990}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8567,6 +9036,8 @@ MonoBehaviour:
   - TreasureCardType: Helicopter Lift
     CardTypeText: {fileID: 1847957361}
     CardType: {fileID: 1847957360}
+    DiscardButt: {fileID: 159865221}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8577,6 +9048,8 @@ MonoBehaviour:
   - TreasureCardType: SandBag
     CardTypeText: {fileID: 1989740725}
     CardType: {fileID: 1989740724}
+    DiscardButt: {fileID: 463402008}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8587,6 +9060,8 @@ MonoBehaviour:
   - TreasureCardType: SandBag
     CardTypeText: {fileID: 1627343544}
     CardType: {fileID: 1627343542}
+    DiscardButt: {fileID: 1253752748}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8598,6 +9073,8 @@ MonoBehaviour:
   - TreasureCardType: Water Rise
     CardTypeText: {fileID: 1253046269}
     CardType: {fileID: 1253046268}
+    DiscardButt: {fileID: 976960439}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8608,6 +9085,8 @@ MonoBehaviour:
   - TreasureCardType: Water Rise
     CardTypeText: {fileID: 1074201758}
     CardType: {fileID: 1074201757}
+    DiscardButt: {fileID: 1222732945}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8618,6 +9097,8 @@ MonoBehaviour:
   - TreasureCardType: Water Rise
     CardTypeText: {fileID: 47934796}
     CardType: {fileID: 47934795}
+    DiscardButt: {fileID: 568168026}
+    Discard: 0
     OceansChalice: 0
     WindStatue: 0
     FireCrystal: 0
@@ -8626,7 +9107,10 @@ MonoBehaviour:
     HelicopterLift: 0
     Sadbag: 0
   TilesObjects: []
+  Flooded: []
+  Sunk: []
   TreasureCardsObjects: []
+  TreasureCardsDiscard: []
   WaterRiseObjects: []
   AdventurerCardsObjects: []
   FloodCards: []
@@ -8811,10 +9295,10 @@ MonoBehaviour:
   Player1: 0
   Player2: 0
   WaterRise: {fileID: 1583821368}
-  MoveAgain1: {fileID: 0}
-  MoveAgain2: {fileID: 0}
-  ShoreUpAgain1: {fileID: 0}
-  ShoreUpAgain2: {fileID: 0}
+  MoveAgain1: {fileID: 1804813200}
+  MoveAgain2: {fileID: 1142874125}
+  ShoreUpAgain1: {fileID: 394892154}
+  ShoreUpAgain2: {fileID: 1301826769}
 --- !u!114 &575931675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8835,12 +9319,12 @@ MonoBehaviour:
   yellowToken: {fileID: 641199261}
   P1MovePanel: {fileID: 241423555}
   P2MovePanel: {fileID: 1474443015}
-  P1DrawTreasureCards: {fileID: 0}
-  P2DrawTreasureCards: {fileID: 0}
-  P1DrawFloodCards: {fileID: 0}
-  P2DrawFloodCards: {fileID: 0}
-  P1Done: {fileID: 0}
-  P2Done: {fileID: 0}
+  P1DrawTreasureCards: {fileID: 898831329}
+  P2DrawTreasureCards: {fileID: 319502874}
+  P1DrawFloodCards: {fileID: 1312330421}
+  P2DrawFloodCards: {fileID: 166612133}
+  P1Done: {fileID: 1471212067}
+  P2Done: {fileID: 1894760074}
 --- !u!114 &575931676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8898,6 +9382,79 @@ MonoBehaviour:
   - Indicator: {fileID: 22957952}
   - Indicator: {fileID: 1952992839}
   - Indicator: {fileID: 1540115736}
+--- !u!114 &575931678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5b4d675f851c1429aa868418ee6e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OceansChalice: {fileID: 452680285}
+  CrystalOfFire: {fileID: 1477478605}
+  StatueOfTheWind: {fileID: 1210712048}
+  EarthStone: {fileID: 575737447}
+--- !u!114 &575931679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56d002ea3b16d849b05006200c8aae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterLevel: {fileID: 1841220581}
+  DrawCards: {fileID: 113599594}
+  WaterRise1: {fileID: 1253046268}
+  WaterRise2: {fileID: 1074201757}
+  WaterRise3: {fileID: 47934795}
+  WaterLevelInt: 1
+  DrawCardsInt: 3
+--- !u!114 &575931680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937ea4bd810d30d488385691164a826e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &575931681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1268ab036ecf4447a839e3e23170361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DiscardPanelP1: {fileID: 713389786}
+  DiscardPanelP2: {fileID: 1814959959}
+--- !u!114 &575931682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d93ed21346abdff42bd724e3fcf1578e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &577229880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4099783019366655189, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
@@ -9434,8 +9991,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp10
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -9665,8 +10230,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp12
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -9898,6 +10471,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
   m_PrefabInstance: {fileID: 2137176050}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &631528035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1066708693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633073449
 GameObject:
   m_ObjectHideFlags: 0
@@ -9975,6 +10553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1268ab036ecf4447a839e3e23170361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiscardPanelP1: {fileID: 0}
+  DiscardPanelP2: {fileID: 0}
 --- !u!1 &641199261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2500659179330390545, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
@@ -10056,6 +10636,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648060977}
   m_CullTransparentMesh: 1
+--- !u!1 &653890818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 370864032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &661621397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4099783019366655189, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
@@ -10403,7 +10988,7 @@ RectTransform:
   - {fileID: 1952992838}
   - {fileID: 1540115737}
   m_Father: {fileID: 575931670}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10665,6 +11250,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &712119060 stripped
@@ -10688,6 +11305,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &713389786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 713389789}
+  - component: {fileID: 713389788}
+  - component: {fileID: 713389787}
+  m_Layer: 5
+  m_Name: DiscardPanelP1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &713389787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713389786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.56037736, b: 0.56037736, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &713389788
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713389786}
+  m_CullTransparentMesh: 1
+--- !u!224 &713389789
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713389786}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1560393975}
+  m_Father: {fileID: 1650600672}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -145.63994}
+  m_SizeDelta: {x: 0, y: -291.27}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &721611466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10782,6 +11476,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -11228,6 +11954,11 @@ CanvasRenderer:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2500659179330390545, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
   m_PrefabInstance: {fileID: 1979564599}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &765979380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 962430514}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &779223913
 GameObject:
@@ -11676,6 +12407,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &830081914 stripped
@@ -12115,7 +12878,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12131,7 +12894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -12147,7 +12910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -12239,6 +13002,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+--- !u!1 &878620152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1719418187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &882739073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1018769140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &888236472 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2500659179330390545, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
@@ -12327,7 +13100,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 898831332}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575931680}
+        m_TargetAssemblyTypeName: DrawTreasureCard, Assembly-CSharp
+        m_MethodName: DrawTreasureCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931681}
+        m_TargetAssemblyTypeName: TreasureCardDiscard, Assembly-CSharp
+        m_MethodName: DiscardStuff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931674}
+        m_TargetAssemblyTypeName: PlayerTurns, Assembly-CSharp
+        m_MethodName: Player1TreasureCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &898831332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12461,6 +13270,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &913043065 stripped
@@ -12578,6 +13419,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -12917,6 +13790,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &962430515 stripped
@@ -13001,7 +13906,7 @@ RectTransform:
   - {fileID: 152720398}
   - {fileID: 1250794593}
   m_Father: {fileID: 575931670}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -13057,6 +13962,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &976960439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1253046266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &982173106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1261626599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &997708630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13300,6 +14215,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -13830,6 +14777,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1018769141 stripped
@@ -14246,8 +15241,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp11
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -14783,6 +15786,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1066708694 stripped
@@ -15096,7 +16147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
-      value: TreasureCard (21)
+      value: Water Rise2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -15145,8 +16200,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp13
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -15534,6 +16597,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
+--- !u!1 &1098481787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 926779087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1098726942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 588976965472196076}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1107638819
 GameObject:
   m_ObjectHideFlags: 0
@@ -15973,7 +17046,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -15989,7 +17062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -16005,7 +17078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -16106,6 +17179,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
   m_PrefabInstance: {fileID: 1075143136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141189889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 514313923}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1142874125
 GameObject:
@@ -16270,6 +17348,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2500659179330390545, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
   m_PrefabInstance: {fileID: 7735326296355615191}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1162083399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1505045028}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1171818420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16419,6 +17502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
+--- !u!1 &1179588937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1652875451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1190781383
 GameObject:
   m_ObjectHideFlags: 0
@@ -16503,6 +17591,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -145.22002}
   m_SizeDelta: {x: 0.000015259, y: -290.44}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1194172967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 712119059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1194817902
 GameObject:
   m_ObjectHideFlags: 0
@@ -16668,6 +17761,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4099783019366655190, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
   m_PrefabInstance: {fileID: 2100931444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1210712048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2882861204836260091, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
+  m_PrefabInstance: {fileID: 580305214}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &1210712049 stripped
 RectTransform:
@@ -16907,6 +18005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
+--- !u!1 &1222732945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1074201755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1226147510
 GameObject:
   m_ObjectHideFlags: 0
@@ -17041,6 +18144,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226147510}
   m_CullTransparentMesh: 1
+--- !u!1 &1236335034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 913043064}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1250794592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17248,8 +18356,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
-      value: TreasureCard (20)
+      value: Water Rise1
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1253046267 stripped
@@ -17431,6 +18555,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253272070}
   m_CullTransparentMesh: 1
+--- !u!1 &1253752748 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1627343541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1261626599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17525,6 +18654,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -17965,7 +19126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00001286398, y: -47.4}
+  m_AnchoredPosition: {x: 0.0000086041, y: -23.230001}
   m_SizeDelta: {x: 181.2, y: 24.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1301826771
@@ -18014,19 +19175,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 575931677}
         m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
-        m_MethodName: ShoreUpDoneP2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 575931677}
-        m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
-        m_MethodName: DisablingButtons
+        m_MethodName: positionOfIndsP2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18271,7 +19420,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1312330423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575931682}
+        m_TargetAssemblyTypeName: DrawFloodCard, Assembly-CSharp
+        m_MethodName: DrawFloodCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931682}
+        m_TargetAssemblyTypeName: DrawFloodCard, Assembly-CSharp
+        m_MethodName: FloodCardsButtP1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931674}
+        m_TargetAssemblyTypeName: PlayerTurns, Assembly-CSharp
+        m_MethodName: Player1FloodCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1312330423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18475,7 +19660,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -18491,7 +19676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUp7
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -18507,7 +19692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -18714,6 +19899,54 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -19246,7 +20479,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -19262,7 +20495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -19278,7 +20511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -19732,6 +20965,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474443015}
   m_CullTransparentMesh: 1
+--- !u!1 &1477478605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2882861204836260091, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
+  m_PrefabInstance: {fileID: 1080830306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1477478606 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4108706644792435070, guid: 8907625bb58a71249aae36cad0c55802, type: 3}
@@ -19749,8 +20987,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp22
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -19862,8 +21108,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp23
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -20418,6 +21672,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1505045029 stripped
@@ -20558,6 +21844,11 @@ RectTransform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1570583055295089013, guid: a35fc2d730d64a64a8fb4b0657da2817, type: 3}
   m_PrefabInstance: {fileID: 1520844612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1522209741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1667586000}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1527808620 stripped
 GameObject:
@@ -20768,15 +22059,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp24
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ShoreUp, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ShoreUp, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
@@ -20986,6 +22293,141 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4099783019366655190, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
   m_PrefabInstance: {fileID: 4099783019967219272}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560393974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560393975}
+  - component: {fileID: 1560393977}
+  - component: {fileID: 1560393976}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1560393975
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560393974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 713389789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.7, y: 4.7}
+  m_SizeDelta: {x: 200.33, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1560393976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560393974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Please Discard Cards
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1560393977
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560393974}
+  m_CullTransparentMesh: 1
 --- !u!1 &1562123256 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4099783019366655189, guid: e0d40020389aa824e808b6027d8a2d07, type: 3}
@@ -21216,8 +22658,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp15
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -21850,8 +23300,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp17
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -22065,6 +23523,54 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -22371,12 +23877,13 @@ RectTransform:
   - {fileID: 1756268250}
   - {fileID: 241423558}
   - {fileID: 2124273385}
+  - {fileID: 713389789}
   m_Father: {fileID: 575931670}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -288.05002, y: 0}
+  m_AnchoredPosition: {x: -288.05005, y: 0}
   m_SizeDelta: {x: -599.35, y: -28.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650600673
@@ -22511,6 +24018,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -22650,6 +24189,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1667586001 stripped
@@ -22685,8 +24256,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp21
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -22859,6 +24438,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1700262763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 999742027}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1717574282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23067,6 +24651,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -23400,8 +25016,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp18
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -24268,6 +25892,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804813200}
   m_CullTransparentMesh: 1
+--- !u!1 &1814959959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814959962}
+  - component: {fileID: 1814959961}
+  - component: {fileID: 1814959960}
+  m_Layer: 5
+  m_Name: DiscardPanelP2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1814959960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814959959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.641812, g: 0.9528302, b: 0.775694, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1814959961
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814959959}
+  m_CullTransparentMesh: 1
+--- !u!224 &1814959962
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814959959}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 100771637}
+  m_Father: {fileID: 1990651686}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.0049438477, y: -145.64}
+  m_SizeDelta: {x: -0.0099487305, y: -291.27}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825476984 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2911596740098856134, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
@@ -24630,6 +26331,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureCard (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
 --- !u!224 &1847957359 stripped
@@ -24759,6 +26508,11 @@ RectTransform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1570583055295089013, guid: a35fc2d730d64a64a8fb4b0657da2817, type: 3}
   m_PrefabInstance: {fileID: 1852270029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1858113948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 574868439}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1858179309
 PrefabInstance:
@@ -25103,6 +26857,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865003741}
   m_CullTransparentMesh: 1
+--- !u!1 &1867205990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 1391135016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1884261662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25197,6 +26956,38 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -25623,8 +27414,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp14
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -26392,6 +28191,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8612614527023732874, guid: 63796cd5917d8e342b420d80eaac9127, type: 3}
   m_PrefabInstance: {fileID: 1979564599}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1981430893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9190001235859831518, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+  m_PrefabInstance: {fileID: 100464681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1989740722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26486,6 +28290,54 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -26629,6 +28481,7 @@ RectTransform:
   - {fileID: 1190781386}
   - {fileID: 1474443016}
   - {fileID: 1767622014}
+  - {fileID: 1814959962}
   m_Father: {fileID: 575931670}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26854,7 +28707,7 @@ RectTransform:
   - {fileID: 1477478606}
   - {fileID: 575737448}
   m_Father: {fileID: 575931670}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -26880,7 +28733,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -26896,7 +28749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ShoreUpAction
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -26912,7 +28765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3403129810477854178, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_Pivot.x
@@ -28580,8 +30433,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575931677}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931677}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShoreUp20
+      objectReference: {fileID: 0}
+    - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DisablingButtons
       objectReference: {fileID: 0}
     - target: {fileID: 427432041173640706, guid: e05a63e556a4c51479431a0bb710d0aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -28775,6 +30636,54 @@ PrefabInstance:
     - target: {fileID: 3889138131339805343, guid: 1505d44b490a971478e9600a852aac66, type: 3}
       propertyPath: m_Name
       value: TreasureCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 575931681}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Discard1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DiscardStuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: TreasureCardDiscard, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809180051913490803, guid: 1505d44b490a971478e9600a852aac66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1505d44b490a971478e9600a852aac66, type: 3}
