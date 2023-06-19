@@ -169,8 +169,10 @@ public class ObjectManager : MonoBehaviour
         public TextMeshProUGUI CardTypeText;
         public GameObject CardType;
         public GameObject DiscardButt;
+        public GameObject GiveButt;
 
         public bool Discard;
+        public bool Give;
 
         public bool OceansChalice;
         public bool WindStatue;

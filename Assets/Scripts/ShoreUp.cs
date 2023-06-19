@@ -79,9 +79,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos18 || greenToken.transform.position == posScript.pos22 || greenToken.transform.position == posScript.pos14)
                         {
@@ -100,9 +104,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos15 || greenToken.transform.position == posScript.pos23 || greenToken.transform.position == posScript.pos19)
                         {
@@ -121,9 +129,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos16 || greenToken.transform.position == posScript.pos24 || greenToken.transform.position == posScript.pos20)
                         {
@@ -142,9 +154,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else
                         {
@@ -171,6 +187,26 @@ public class ShoreUp : MonoBehaviour
                             if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(0, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
                             {
                                 IndicatorSU[4].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[5].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[6].Indicator.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[7].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[8].Indicator.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
                         }
@@ -782,9 +818,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos18 || greenToken.transform.position == posScript.pos22 || greenToken.transform.position == posScript.pos14)
                         {
@@ -803,9 +843,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos15 || greenToken.transform.position == posScript.pos23 || greenToken.transform.position == posScript.pos19)
                         {
@@ -824,9 +868,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == posScript.pos16 || greenToken.transform.position == posScript.pos24 || greenToken.transform.position == posScript.pos20)
                         {
@@ -845,9 +893,13 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[2].Indicator.transform.position = greenToken.transform.position + new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
-
-                            IndicatorSU[3].Indicator.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[3].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
                             IndicatorSU[4].Indicator.transform.position = new Vector3(0, 10, 0);
+                            IndicatorSU[5].Indicator.transform.position = new Vector3(0, 10, 0);
                         }
                         else
                         {
@@ -876,6 +928,27 @@ public class ShoreUp : MonoBehaviour
                                 IndicatorSU[4].Indicator.transform.position = greenToken.transform.position - new Vector3(0, 1.4f, 0);
                                 script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
                             }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[5].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[6].Indicator.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[7].Indicator.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0) && script.TilesInstances[j].Tile.GetComponent<Image>().color == Color.cyan)
+                            {
+                                IndicatorSU[8].Indicator.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                                script.TilesInstances[j].Tile.GetComponent<Button>().enabled = true;
+                            }
+
                         }
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Pilot" && script.AdventurersInstances[i].Title.transform.position == posScript.player2Title.transform.position)
@@ -1549,7 +1622,7 @@ public class ShoreUp : MonoBehaviour
             turnsScript.CaptureTreasureP2.SetActive(true);
             turnsScript.EndTasksP2.SetActive(true);
 
-            ShoreUpPanelP1.SetActive(false);
+            ShoreUpPanelP2.SetActive(false);
         }
     }
 

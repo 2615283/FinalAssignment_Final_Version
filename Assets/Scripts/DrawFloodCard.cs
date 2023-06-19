@@ -25,16 +25,16 @@ public class DrawFloodCard : MonoBehaviour
             script.FloodCards.Remove(Tile);
             script.FloodCardsDiscard.Add(Tile);
 
-            if (script.Flooded.Contains(script.FloodCards[i]))
+            if (script.Flooded.Contains(Tile))
             {
-                script.Sunk.Add(script.FloodCards[i]);
-                script.Flooded.Remove(script.FloodCards[i]);
+                script.Sunk.Add(Tile);
+                script.Flooded.Remove(Tile);
 
-                script.FloodCards[i].transform.position = new Vector3(-20, 0, 0);
+                Tile.transform.position = new Vector3(-20, 0, 0);
             }
             else
             {
-                script.Flooded.Add(script.FloodCards[i]);
+                script.Flooded.Add(Tile);
             }
         }
 
