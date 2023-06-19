@@ -83,12 +83,8 @@ public class Setup : MonoBehaviour
 
         for (int i = 0; i < script.WaterRiseInstances.Count; i++)
         {
-            script.TreasureCardInstances.Add(script.WaterRiseInstances[i]);           
-        }
-
-        for (int i = 0; i < script.WaterRiseObjects.Count; i++)
-        {
             script.TreasureCardsObjects.Add(script.WaterRiseObjects[i]);
+            script.TreasureCardInstances.Add(script.WaterRiseInstances[i]);
         }
     }
 

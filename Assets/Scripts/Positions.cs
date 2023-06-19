@@ -7,6 +7,7 @@ public class Positions : MonoBehaviour
     ObjectManager script;
     TokenMovement movementScript;
     PlayerTurns turnsScript;
+    PilotScript pilotScript;
 
     public GameObject player1Title;
     public GameObject player2Title;
@@ -51,11 +52,66 @@ public class Positions : MonoBehaviour
 
     public List<Indicators> Indicator = new List<Indicators>();
     public List<GameObject> AdvendurersInPosition = new List<GameObject>();
+    public List<Vector3> pos = new List<Vector3>();
 
     private void Awake()
     {
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
         turnsScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
+        pilotScript = GameObject.Find("GameCanvas").GetComponent<PilotScript>();
+    }
+
+    private void Start()
+    {
+        pos1 = new Vector3(-0.7f, 0.7f);
+        pos2 = new Vector3(0.7f, 0.7f);
+        pos3 = new Vector3(-0.7f, -0.7f);
+        pos4 = new Vector3(0.7f, -0.7f);
+        pos5 = new Vector3(-0.7f, 2.1f);
+        pos6 = new Vector3(0.7f, 2.1f);
+        pos7 = new Vector3(-0.7f, -2.1f);
+        pos8 = new Vector3(0.7f, -2.1f);
+        pos9 = new Vector3(-2.1f, 0.7f);
+        pos10 = new Vector3(2.1f, 0.7f);
+        pos11 = new Vector3(-2.1f, -0.7f);
+        pos12 = new Vector3(2.1f, -0.7f);
+        pos13 = new Vector3(-3.5f, 0.7f);
+        pos14 = new Vector3(3.5f, 0.7f);
+        pos15 = new Vector3(-3.5f, -0.7f);
+        pos16 = new Vector3(3.5f, -0.7f);
+        pos17 = new Vector3(-0.7f, 3.5f);
+        pos18 = new Vector3(0.7f, 3.5f);
+        pos19 = new Vector3(-0.7f, -3.5f);
+        pos20 = new Vector3(0.7f, -3.5f);
+        pos21 = new Vector3(-2.1f, 2.1f);
+        pos22 = new Vector3(2.1f, 2.1f);
+        pos23 = new Vector3(-2.1f, -2.1f);
+        pos24 = new Vector3(2.1f, -2.1f);
+
+        pos.Add(pos1);
+        pos.Add(pos2);
+        pos.Add(pos3);
+        pos.Add(pos4);
+        pos.Add(pos5);
+        pos.Add(pos6);
+        pos.Add(pos7);
+        pos.Add(pos8);
+        pos.Add(pos9);
+        pos.Add(pos10); 
+        pos.Add(pos11);
+        pos.Add(pos12);
+        pos.Add(pos13);
+        pos.Add(pos14);
+        pos.Add(pos15);
+        pos.Add(pos16);
+        pos.Add(pos17);
+        pos.Add(pos18);
+        pos.Add(pos19);
+        pos.Add(pos20);
+        pos.Add(pos21);
+        pos.Add(pos22);
+        pos.Add(pos23);
+        pos.Add(pos24);
     }
 
     private void Update()
@@ -68,122 +124,98 @@ public class Positions : MonoBehaviour
 
     public void TilePostions()
     {
-        pos1 = new Vector2(-0.7f, 0.7f);
         GameObject firstTile = script.TilesObjects[Random.Range(0, 23)];
         firstTile.transform.position = pos1;
         script.TilesObjects.Remove(firstTile);
 
-        pos2 = new Vector2(0.7f, 0.7f);
         GameObject secondTile = script.TilesObjects[Random.Range(0, 22)];
         secondTile.transform.position = pos2;
         script.TilesObjects.Remove(secondTile);
 
-        pos3 = new Vector2(-0.7f, -0.7f);
         GameObject thirdTile = script.TilesObjects[Random.Range(0, 21)];
         thirdTile.transform.position = pos3;
         script.TilesObjects.Remove(thirdTile);
 
-        pos4 = new Vector2(0.7f, -0.7f);
         GameObject fourthTile = script.TilesObjects[Random.Range(0, 20)];
         fourthTile.transform.position = pos4;
         script.TilesObjects.Remove(fourthTile);
 
-        pos5 = new Vector2(-0.7f, 2.1f);
         GameObject fifthTile = script.TilesObjects[Random.Range(0, 19)];
         fifthTile.transform.position = pos5;
         script.TilesObjects.Remove(fifthTile);
 
-        pos6 = new Vector2(0.7f, 2.1f);
         GameObject sixthTile = script.TilesObjects[Random.Range(0, 18)];
         sixthTile.transform.position = pos6;
         script.TilesObjects.Remove(sixthTile);
 
-        pos7 = new Vector2(-0.7f, -2.1f);
         GameObject seventhTile = script.TilesObjects[Random.Range(0, 17)];
         seventhTile.transform.position = pos7;
         script.TilesObjects.Remove(seventhTile);
 
-        pos8 = new Vector2(0.7f, -2.1f);
         GameObject eighthTile = script.TilesObjects[Random.Range(0, 16)];
         eighthTile.transform.position = pos8;
         script.TilesObjects.Remove(eighthTile);
 
-        pos9 = new Vector2(-2.1f, 0.7f);
         GameObject ninthTile = script.TilesObjects[Random.Range(0, 15)];
         ninthTile.transform.position = pos9;
         script.TilesObjects.Remove(ninthTile);
 
-        pos10 = new Vector2(2.1f, 0.7f);
         GameObject tenthTile = script.TilesObjects[Random.Range(0, 14)];
         tenthTile.transform.position = pos10;
         script.TilesObjects.Remove(tenthTile);
 
-        pos11 = new Vector2(-2.1f, -0.7f);
         GameObject eleventhTile = script.TilesObjects[Random.Range(0, 13)];
         eleventhTile.transform.position = pos11;
         script.TilesObjects.Remove(eleventhTile);
 
-        pos12 = new Vector2(2.1f, -0.7f);
         GameObject twelthTile = script.TilesObjects[Random.Range(0, 12)];
         twelthTile.transform.position = pos12;
         script.TilesObjects.Remove(twelthTile);
 
-        pos13 = new Vector2(-3.5f, 0.7f);
         GameObject thirteenthTile = script.TilesObjects[Random.Range(0, 11)];
         thirteenthTile.transform.position = pos13;
         script.TilesObjects.Remove(thirteenthTile);
 
-        pos14 = new Vector2(3.5f, 0.7f);
         GameObject fourteenthTile = script.TilesObjects[Random.Range(0, 10)];
         fourteenthTile.transform.position = pos14;
         script.TilesObjects.Remove(fourteenthTile);
 
-        pos15 = new Vector2(-3.5f, -0.7f);
         GameObject fifteenthTile = script.TilesObjects[Random.Range(0, 9)];
         fifteenthTile.transform.position = pos15;
         script.TilesObjects.Remove(fifteenthTile);
 
-        pos16 = new Vector2(3.5f, -0.7f);
         GameObject sixteenthTile = script.TilesObjects[Random.Range(0, 8)];
         sixteenthTile.transform.position = pos16;
         script.TilesObjects.Remove(sixteenthTile);
 
-        pos17 = new Vector2(-0.7f, 3.5f);
         GameObject seventeenthTile = script.TilesObjects[Random.Range(0, 7)];
         seventeenthTile.transform.position = pos17;
         script.TilesObjects.Remove(seventeenthTile);
 
-        pos18 = new Vector2(0.7f, 3.5f);
         GameObject eightteenthTile = script.TilesObjects[Random.Range(0, 6)];
         eightteenthTile.transform.position = pos18;
         script.TilesObjects.Remove(eightteenthTile);
 
-        pos19 = new Vector2(-0.7f, -3.5f);
         GameObject ninteenthTile = script.TilesObjects[Random.Range(0, 5)];
         ninteenthTile.transform.position = pos19;
         script.TilesObjects.Remove(ninteenthTile);
 
-        pos20 = new Vector2(0.7f, -3.5f);
         GameObject twentiethTile = script.TilesObjects[Random.Range(0, 4)];
         twentiethTile.transform.position = pos20;
         script.TilesObjects.Remove(twentiethTile);
 
-        pos21 = new Vector2(-2.1f, 2.1f);
         GameObject twentyfirstTile = script.TilesObjects[Random.Range(0, 3)];
         twentyfirstTile.transform.position = pos21;
         script.TilesObjects.Remove(twentyfirstTile);
 
-        pos22 = new Vector2(2.1f, 2.1f);
         GameObject twentysecondTile = script.TilesObjects[Random.Range(0, 2)];
         twentysecondTile.transform.position = pos22;
         script.TilesObjects.Remove(twentysecondTile);
 
-        pos23 = new Vector2(-2.1f, -2.1f);
         GameObject twentythirdTile = script.TilesObjects[Random.Range(0, 1)];
         twentythirdTile.transform.position = pos23;
         script.TilesObjects.Remove(twentythirdTile);
 
-        pos24 = new Vector2(2.1f, -2.1f);
         GameObject twentyfourthTile = script.TilesObjects[Random.Range(0, 0)];
         twentyfourthTile.transform.position = pos24;
         script.TilesObjects.Remove(twentyfourthTile);
@@ -360,77 +392,7 @@ public class Positions : MonoBehaviour
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Pilot" && script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
                     {
-                        if (blueToken.transform.position == pos17 || blueToken.transform.position == pos21 || blueToken.transform.position == pos13)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos18 || blueToken.transform.position == pos22 || blueToken.transform.position == pos14)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos15 || blueToken.transform.position == pos23 || blueToken.transform.position == pos19)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos16 || blueToken.transform.position == pos24 || blueToken.transform.position == pos20)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[2].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[3].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                        }
+                        pilotScript.PilotMove();
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Diver" && script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
                     {
@@ -850,77 +812,7 @@ public class Positions : MonoBehaviour
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Pilot" && script.AdventurersInstances[i].Title.transform.position == player2Title.transform.position)
                     {
-                        if (blueToken.transform.position == pos17 || blueToken.transform.position == pos21 || blueToken.transform.position == pos13)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos18 || blueToken.transform.position == pos22 || blueToken.transform.position == pos14)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos15 || blueToken.transform.position == pos23 || blueToken.transform.position == pos19)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else if (blueToken.transform.position == pos16 || blueToken.transform.position == pos24 || blueToken.transform.position == pos20)
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                        }
-                        else
-                        {
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[0].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(1.4f, 0, 0))
-                            {
-                                Indicator[1].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(1.4f, 0, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position + new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[2].IndicatorObject.transform.position = blueToken.transform.position + new Vector3(0, 1.4f, 0);
-                            }
-                            if (script.TilesInstances[j].Tile.transform.position == blueToken.transform.position - new Vector3(0, 1.4f, 0))
-                            {
-                                Indicator[3].IndicatorObject.transform.position = blueToken.transform.position - new Vector3(0, 1.4f, 0);
-                            }
-                        }
+                        pilotScript.PilotMove();
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Diver" && script.AdventurersInstances[i].Title.transform.position == player2Title.transform.position)
                     {

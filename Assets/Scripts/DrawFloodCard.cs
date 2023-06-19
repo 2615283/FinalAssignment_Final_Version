@@ -18,6 +18,15 @@ public class DrawFloodCard : MonoBehaviour
 
     public void DrawFloodCards()
     {
+        if (script.FloodCards.Count <= riseScript.DrawCardsInt)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+
         for (int i = 0; i < riseScript.DrawCardsInt; i++)
         {
             GameObject Tile = script.FloodCards[Random.Range(0, script.FloodCards.Count)];

@@ -50,6 +50,55 @@ public class WaterRise : MonoBehaviour
                 script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
             }
         }
+        else if (WaterLevelInt == 4)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        else if (WaterLevelInt == 5)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        else if (WaterLevelInt == 6)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        else if (WaterLevelInt == 7)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        else if (WaterLevelInt == 8)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        else if (WaterLevelInt == 9)
+        {
+            for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
+            {
+                script.FloodCards.Add(script.FloodCardsDiscard[i]);
+                script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
+            }
+        }
+        
 
         if (turnScript.Player1Turn == true)
         {

@@ -24,6 +24,26 @@ public class TreasureCardDiscard : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        for (int i = 0; i < script.TreasureCardInstances.Count; i++)
+        {
+            if (script.TreasureCardsDiscard.Contains(script.TreasureCardInstances[i].CardType))
+            {
+                script.TreasureCardInstances[i].Discard = false;
+            }
+        }
+
+        if (script.TreasureCardsObjects.Count <= 1)
+        {
+            for (int i = 0; i < script.TreasureCardsDiscard.Count; i++)
+            {
+                script.TreasureCardsObjects.Add(script.TreasureCardsDiscard[i]);
+                script.TreasureCardsDiscard.Remove(script.TreasureCardsDiscard[i]);
+            }
+        }
+    }
+
     public void DiscardStuff()
     {
         if (turnScript.Player1Turn == true)
@@ -102,7 +122,11 @@ public class TreasureCardDiscard : MonoBehaviour
                     script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
                 }
             }
-            else if (turnScript.Player2Turn == true)
+        }
+
+        for (int i = 0; i < script.TreasureCardInstances.Count; i++)
+        {
+            if (turnScript.Player2Turn == true)
             {
                 if (script.TreasureCardInstances[i].Discard == true)
                 {
@@ -113,7 +137,7 @@ public class TreasureCardDiscard : MonoBehaviour
                     script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
                 }
             }
-        }
+        }        
     }
 
     public void DiscardFalse()

@@ -9346,6 +9346,7 @@ GameObject:
   - component: {fileID: 575931681}
   - component: {fileID: 575931682}
   - component: {fileID: 575931683}
+  - component: {fileID: 575931684}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -10421,6 +10422,7 @@ MonoBehaviour:
     pos: {x: 0, y: 0, z: 0}
     click: 0
   AdvendurersInPosition: []
+  pos: []
 --- !u!114 &575931673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10661,6 +10663,18 @@ MonoBehaviour:
   NoGivingP2: {fileID: 704075461}
   Tokenlist1: []
   Tokenlist2: []
+--- !u!114 &575931684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f64c4e86115b140bdc623eaa286e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &576683170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4939775912538425532, guid: 1505d44b490a971478e9600a852aac66, type: 3}
