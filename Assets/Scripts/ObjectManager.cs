@@ -174,6 +174,7 @@ public class ObjectManager : MonoBehaviour
 
         public bool Discard;
         public bool Give;
+        public bool Use;
 
         public bool OceansChalice;
         public bool WindStatue;
