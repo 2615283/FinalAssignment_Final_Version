@@ -9347,6 +9347,7 @@ GameObject:
   - component: {fileID: 575931682}
   - component: {fileID: 575931683}
   - component: {fileID: 575931684}
+  - component: {fileID: 575931685}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -9901,6 +9902,7 @@ MonoBehaviour:
     CardType: {fileID: 588976965472196078}
     DiscardButt: {fileID: 1098726942}
     GiveButt: {fileID: 1784010115}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9915,6 +9917,7 @@ MonoBehaviour:
     CardType: {fileID: 999742029}
     DiscardButt: {fileID: 1700262763}
     GiveButt: {fileID: 1102564065}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9929,6 +9932,7 @@ MonoBehaviour:
     CardType: {fileID: 926779089}
     DiscardButt: {fileID: 1098481787}
     GiveButt: {fileID: 1905599762}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9943,6 +9947,7 @@ MonoBehaviour:
     CardType: {fileID: 1652875453}
     DiscardButt: {fileID: 1179588937}
     GiveButt: {fileID: 1246408799}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9957,6 +9962,7 @@ MonoBehaviour:
     CardType: {fileID: 14384443}
     DiscardButt: {fileID: 337124958}
     GiveButt: {fileID: 597559385}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9971,6 +9977,7 @@ MonoBehaviour:
     CardType: {fileID: 1884261664}
     DiscardButt: {fileID: 356091877}
     GiveButt: {fileID: 711335227}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9985,6 +9992,7 @@ MonoBehaviour:
     CardType: {fileID: 962430516}
     DiscardButt: {fileID: 765979380}
     GiveButt: {fileID: 1906108913}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -9999,6 +10007,7 @@ MonoBehaviour:
     CardType: {fileID: 100464683}
     DiscardButt: {fileID: 1981430893}
     GiveButt: {fileID: 1969595262}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10013,6 +10022,7 @@ MonoBehaviour:
     CardType: {fileID: 1505045030}
     DiscardButt: {fileID: 1162083399}
     GiveButt: {fileID: 1646757486}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10027,6 +10037,7 @@ MonoBehaviour:
     CardType: {fileID: 1667586002}
     DiscardButt: {fileID: 1522209741}
     GiveButt: {fileID: 514248721}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10041,6 +10052,7 @@ MonoBehaviour:
     CardType: {fileID: 574868441}
     DiscardButt: {fileID: 1858113948}
     GiveButt: {fileID: 147527730}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10055,6 +10067,7 @@ MonoBehaviour:
     CardType: {fileID: 1261626601}
     DiscardButt: {fileID: 982173106}
     GiveButt: {fileID: 226118030}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10069,6 +10082,7 @@ MonoBehaviour:
     CardType: {fileID: 712119061}
     DiscardButt: {fileID: 1194172967}
     GiveButt: {fileID: 349371329}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10083,6 +10097,7 @@ MonoBehaviour:
     CardType: {fileID: 370864034}
     DiscardButt: {fileID: 653890818}
     GiveButt: {fileID: 694787151}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10097,6 +10112,7 @@ MonoBehaviour:
     CardType: {fileID: 913043066}
     DiscardButt: {fileID: 1236335034}
     GiveButt: {fileID: 504360513}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10111,6 +10127,7 @@ MonoBehaviour:
     CardType: {fileID: 830081915}
     DiscardButt: {fileID: 170562056}
     GiveButt: {fileID: 1501518197}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 1
@@ -10125,6 +10142,7 @@ MonoBehaviour:
     CardType: {fileID: 721611468}
     DiscardButt: {fileID: 213307633}
     GiveButt: {fileID: 1002807491}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 1
@@ -10139,6 +10157,7 @@ MonoBehaviour:
     CardType: {fileID: 514313925}
     DiscardButt: {fileID: 1141189889}
     GiveButt: {fileID: 801095211}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 1
@@ -10153,6 +10172,7 @@ MonoBehaviour:
     CardType: {fileID: 1719418189}
     DiscardButt: {fileID: 878620152}
     GiveButt: {fileID: 576683170}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 1
@@ -10167,6 +10187,7 @@ MonoBehaviour:
     CardType: {fileID: 1066708695}
     DiscardButt: {fileID: 631528035}
     GiveButt: {fileID: 1631872066}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 1
@@ -10181,6 +10202,7 @@ MonoBehaviour:
     CardType: {fileID: 1018769142}
     DiscardButt: {fileID: 882739073}
     GiveButt: {fileID: 87940193}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10195,6 +10217,7 @@ MonoBehaviour:
     CardType: {fileID: 1391135018}
     DiscardButt: {fileID: 1867205990}
     GiveButt: {fileID: 1889353255}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10209,6 +10232,7 @@ MonoBehaviour:
     CardType: {fileID: 1847957360}
     DiscardButt: {fileID: 159865221}
     GiveButt: {fileID: 356936651}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10223,6 +10247,7 @@ MonoBehaviour:
     CardType: {fileID: 1989740724}
     DiscardButt: {fileID: 463402008}
     GiveButt: {fileID: 769439167}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10237,6 +10262,7 @@ MonoBehaviour:
     CardType: {fileID: 1627343542}
     DiscardButt: {fileID: 1253752748}
     GiveButt: {fileID: 1669050264}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10252,6 +10278,7 @@ MonoBehaviour:
     CardType: {fileID: 1253046268}
     DiscardButt: {fileID: 976960439}
     GiveButt: {fileID: 1406114045}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10266,6 +10293,7 @@ MonoBehaviour:
     CardType: {fileID: 1074201757}
     DiscardButt: {fileID: 1222732945}
     GiveButt: {fileID: 81441294}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10280,6 +10308,7 @@ MonoBehaviour:
     CardType: {fileID: 47934795}
     DiscardButt: {fileID: 568168026}
     GiveButt: {fileID: 1233060877}
+    UseButt: {fileID: 0}
     Discard: 0
     Give: 0
     OceansChalice: 0
@@ -10673,6 +10702,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81f64c4e86115b140bdc623eaa286e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &575931685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0199e961458e39647808773c1912f09d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &576683170 stripped

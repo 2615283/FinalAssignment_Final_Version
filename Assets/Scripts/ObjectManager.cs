@@ -170,6 +170,7 @@ public class ObjectManager : MonoBehaviour
         public GameObject CardType;
         public GameObject DiscardButt;
         public GameObject GiveButt;
+        public GameObject UseButt;
 
         public bool Discard;
         public bool Give;
