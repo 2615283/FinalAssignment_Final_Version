@@ -239,10 +239,12 @@ public class Positions : MonoBehaviour
             if(script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
             {
                 script.AdventurersInstances[i].Active = true;
+                script.AdventurersInstances[i].Player1 = true;
             }
             else if (script.AdventurersInstances[i].Title.transform.position == player2Title.transform.position)
             {
                 script.AdventurersInstances[i].Active = true;
+                script.AdventurersInstances[i].Player2 = true;
             }
             else 
             {

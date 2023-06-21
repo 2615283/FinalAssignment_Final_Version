@@ -154,12 +154,17 @@ public class ObjectManager : MonoBehaviour
         public GameObject Title;
         public bool Active;
 
+        public bool Player1;
+        public bool Player2;
+
         public bool Yellow;
         public bool Red;
         public bool Blue;
         public bool Black;
         public bool Green;
         public bool White;
+
+        public GameObject Token;
     }
 
     [System.Serializable]
