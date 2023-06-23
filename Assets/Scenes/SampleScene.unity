@@ -6636,6 +6636,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: EngineerActionNums
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &394892157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10441,6 +10453,7 @@ GameObject:
   - component: {fileID: 575931685}
   - component: {fileID: 575931686}
   - component: {fileID: 575931687}
+  - component: {fileID: 575931688}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -11898,6 +11911,19 @@ MonoBehaviour:
   HelicopterLift2: {fileID: 1271830723}
   Move1: {fileID: 1658148853}
   Move2: {fileID: 349359435}
+--- !u!114 &575931688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de027d56171485c4aa71f4a7a0c5e5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Engineer: 0
 --- !u!1 &576683170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4939775912538425532, guid: 1505d44b490a971478e9600a852aac66, type: 3}
@@ -19528,9 +19554,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 575931683}
-        m_TargetAssemblyTypeName: TreasureCardTrade, Assembly-CSharp
-        m_MethodName: GiveTreasureButton
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: Done
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23222,9 +23248,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 575931677}
-        m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
-        m_MethodName: EnablingButtons
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: EngineerAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23734,9 +23760,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 575931677}
-        m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
-        m_MethodName: EnablingButtons
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: EngineerAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24121,6 +24147,18 @@ MonoBehaviour:
       - m_Target: {fileID: 575931677}
         m_TargetAssemblyTypeName: ShoreUp, Assembly-CSharp
         m_MethodName: positionOfIndsP2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: EngineerActionNums
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -36158,9 +36196,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 575931683}
-        m_TargetAssemblyTypeName: TreasureCardTrade, Assembly-CSharp
-        m_MethodName: GiveTreasureButton
+      - m_Target: {fileID: 575931688}
+        m_TargetAssemblyTypeName: EngineerScript, Assembly-CSharp
+        m_MethodName: Done
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

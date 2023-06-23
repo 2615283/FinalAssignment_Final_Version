@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class WaterRise : MonoBehaviour
 {
@@ -97,6 +98,10 @@ public class WaterRise : MonoBehaviour
                 script.FloodCards.Add(script.FloodCardsDiscard[i]);
                 script.FloodCardsDiscard.Remove(script.FloodCardsDiscard[i]);
             }
+        }
+        else if (WaterLevelInt == 10)
+        {
+            SceneManager.LoadScene(2);
         }
         
 

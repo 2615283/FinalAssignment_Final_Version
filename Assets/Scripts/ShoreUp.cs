@@ -1539,6 +1539,11 @@ public class ShoreUp : MonoBehaviour
             {
                 script.TilesInstances[i].Tile.GetComponent<Image>().color = Color.white;
                 script.Flooded.Remove(script.TilesInstances[i].Tile);
+
+                if (script.TilesInstances[i].TileName == "Fool's Landing")
+                {
+                    script.TilesInstances[i].Tile.GetComponent<Image>().color = Color.red;
+                }
             }
         }
 

@@ -42,7 +42,30 @@ public class HelicopterLift : MonoBehaviour
 
     private void Update()
     {
-        
+        if (script.Sunk.Contains(script.TilesInstances[12].Tile))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if (script.Sunk.Contains(script.TilesInstances[7].Tile) && script.Sunk.Contains(script.TilesInstances[23].Tile))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if (script.Sunk.Contains(script.TilesInstances[11].Tile) && script.Sunk.Contains(script.TilesInstances[22].Tile))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if (script.Sunk.Contains(script.TilesInstances[2].Tile) && script.Sunk.Contains(script.TilesInstances[19].Tile))
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if (script.Sunk.Contains(script.TilesInstances[3].Tile) && script.Sunk.Contains(script.TilesInstances[8].Tile))
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void HelicopterPanel()
