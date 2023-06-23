@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Pilot can move to any card on the board
 public class PilotScript : MonoBehaviour
 {
     ObjectManager script;
@@ -15,6 +16,7 @@ public class PilotScript : MonoBehaviour
         posScript = GameObject.Find("GameCanvas").GetComponent<Positions>();
     }
 
+    //Crazy Code alert. This puts the indicators that show you where to move and that you click to move on all the available Tiles on the board.
     public void PilotMove()
     {
         for (int i = 0; i < script.TilesInstances.Count; i++)

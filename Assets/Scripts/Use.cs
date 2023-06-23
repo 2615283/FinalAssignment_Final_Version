@@ -13,6 +13,7 @@ public class Use : MonoBehaviour
         script = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
     }
 
+    // Sets Use Boolean to false
     public void UseFalse()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -20,6 +21,9 @@ public class Use : MonoBehaviour
             script.TreasureCardInstances[i].Use = false;
         }
     }
+
+    // Below are all the Use booleans. they are set to true when the use button is pressed. This is relevant in the treasures Script, as it is 
+    // used to indicate the amount of cards you have of a treasure typr
 
     public void Use1()
     {

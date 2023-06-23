@@ -45,6 +45,8 @@ public class Treasures : MonoBehaviour
         useScript = GameObject.Find("GameCanvas").GetComponent<Use>();
         moveScript = GameObject.Find("GameCanvas").GetComponent<TokenMovement>();
     }
+
+    // Disables the Capture treasure panels and buttons
     private void Start()
     {
         InitialCaptureTreasurePanelP1.SetActive(false);
@@ -54,6 +56,7 @@ public class Treasures : MonoBehaviour
         Capture2.SetActive(false);
     }
 
+    // Initial placement of the Treasure
     public void TreasureInitial()
     {
         OceansChalice.transform.position = new Vector3(-3.5f, 3, 0);
@@ -62,6 +65,10 @@ public class Treasures : MonoBehaviour
         EarthStone.transform.position = new Vector3(3.5f, -3, 0);
     }
 
+    // Checks the player turn, then checks if the player is on a treasure tile, if not, if doesn't do anything
+    // if the player is on a treasure tile, it gives a message that tells you what you need to capture the treasure
+    // and there are buttons to continue or go back
+    // Crazy Code Alert also
     public void InitialCaptureButt()
     {
         if (turnScript.Player1Turn == true)
@@ -320,6 +327,7 @@ public class Treasures : MonoBehaviour
         }
     }
 
+    // Sets the Use buttons active, and takes away the continue button
     public void Continue()
     {
         if (turnScript.Player1Turn == true)
@@ -350,6 +358,8 @@ public class Treasures : MonoBehaviour
         }
     }
 
+    // Disables the Capture buttons, then checks whether the action limit has been reached. if so, it goes to the end turn tasks immediately
+    // if not, it goes back to the normal actions. It also sets the treasure ints to 0 (relevant below)
     public void Back()
     {
         Capture1.SetActive(false);
@@ -407,6 +417,7 @@ public class Treasures : MonoBehaviour
         }
     }
 
+    // When use button on card is pressed, it disables the capture button and the use button
     public void Use()
     {
         if (turnScript.Player1Turn == true)
@@ -681,6 +692,8 @@ public class Treasures : MonoBehaviour
         }
     }
 
+    // checks if the treasure integer is at 4. if it is, it makes the relevant Player panel it's parent and then is added to the captured treasure list
+    // The cards are also then removed from the player hand
     public void Capture()
     {
         if (turnScript.Player1Turn == true)
@@ -696,6 +709,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player1TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].EarthStone == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (FireCrystal == 4)
@@ -707,6 +721,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player1TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].FireCrystal == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (OceanChalice == 4)
@@ -718,6 +733,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player1TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].OceansChalice == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (WindStatue == 4)
@@ -729,6 +745,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player1TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].WindStatue == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
             }
@@ -746,6 +763,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player2TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].EarthStone == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (FireCrystal == 4)
@@ -757,6 +775,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player2TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].FireCrystal == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (OceanChalice == 4)
@@ -768,6 +787,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player2TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].OceansChalice == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
                 else if (WindStatue == 4)
@@ -779,6 +799,7 @@ public class Treasures : MonoBehaviour
                     if (script.Player2TreasureCards.Contains(script.TreasureCardInstances[i].CardType) && script.TreasureCardInstances[i].WindStatue == true)
                     {
                         script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
+                        script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     }
                 }
             }

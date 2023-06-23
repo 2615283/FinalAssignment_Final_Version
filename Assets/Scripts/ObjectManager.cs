@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// All zee objects. All them. 
 public class ObjectManager : MonoBehaviour
 {
+    // Spaces in the Player panels, that function as a hand
     public GameObject Space1P1;
     public GameObject Space2P1;
     public GameObject Space3P1;
@@ -23,11 +25,15 @@ public class ObjectManager : MonoBehaviour
     public GameObject Space7P2;
     public GameObject Space8P2;
 
+    // All the original objects in their lists.
+    // This makes use of the classes below so you can add an instance in the inspector in unity.
     [SerializeField] public List<Tiles> TilesInstances = new List<Tiles>();
     [SerializeField] public List<Adventurers> AdventurersInstances = new List<Adventurers>();
     [SerializeField] public List<TreasureCards> TreasureCardInstances = new List<TreasureCards>();
     [SerializeField] public List<TreasureCards> WaterRiseInstances = new List<TreasureCards>();
 
+
+    // The lists that the objects of above mentioned gets passed around in.
     public List<GameObject> TilesObjects = new List<GameObject>();
     public List<GameObject> Flooded = new List<GameObject>();
     public List<GameObject> Sunk = new List<GameObject>();
@@ -38,12 +44,16 @@ public class ObjectManager : MonoBehaviour
     public List<GameObject> FloodCards = new List<GameObject>();
     public List<GameObject> FloodCardsDiscard = new List<GameObject>();
 
+    // Player hand
     public List<GameObject> Player1TreasureCards = new List<GameObject>();
     public List<GameObject> Player2TreasureCards = new List<GameObject>();
 
+    // Player hand that make sit possible to see what is in player hand
     public List<GameObject> Player1TreasureCardsSpaces = new List<GameObject>();
     public List<GameObject> Player2TreasureCardsSpaces = new List<GameObject>();
 
+    // Everything in the start function is just some UI stuff
+    // It makes the text on the cards say what they have to, and they add the objects to the different piles in the game
     private void Start()
     {
         for (int i = 0; i < TilesInstances.Count; i++)
@@ -110,6 +120,7 @@ public class ObjectManager : MonoBehaviour
         Player2TreasureCardsSpaces.Add(Space8P2);
     }
 
+    // Update function just updates the position of the tiles in the game so you can see where they are
     private void Update()
     {
         for (int i = 0; i < TilesInstances.Count; i++)
@@ -119,6 +130,8 @@ public class ObjectManager : MonoBehaviour
 
     }
 
+
+    // I present the classes 
     [System.Serializable]
     public class Tiles
     {

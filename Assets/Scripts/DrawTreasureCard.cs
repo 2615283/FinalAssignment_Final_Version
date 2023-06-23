@@ -13,10 +13,13 @@ public class DrawTreasureCard : MonoBehaviour
         turnScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
     }
 
+    // The initial treasure cards that are drawn at the beginning of the game
     public void DrawTreasureCards()
     {
         if (turnScript.Player1Turn == true)
         {
+            // Removes the card from the card list and adds it to the player hand list, as well as determines where it should be placed in the
+            // hand according to the spaces determined before hand
             GameObject Player1Card1 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
             script.Player1TreasureCards.Add(Player1Card1);
             script.TreasureCardsObjects.Remove(Player1Card1);
@@ -43,6 +46,8 @@ public class DrawTreasureCard : MonoBehaviour
         DrawTreasureCardsButton();
     }
 
+
+    // Makes the button go away when pressed
     public void DrawTreasureCardsButton()
     {
         if (turnScript.Player1Turn == true)

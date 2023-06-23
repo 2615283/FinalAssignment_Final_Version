@@ -61,6 +61,7 @@ public class Positions : MonoBehaviour
         pilotScript = GameObject.Find("GameCanvas").GetComponent<PilotScript>();
     }
 
+    // Positions... Crazy... I am well aware
     private void Start()
     {
         pos1 = new Vector3(-0.7f, 0.7f);
@@ -114,6 +115,7 @@ public class Positions : MonoBehaviour
         pos.Add(pos24);
     }
 
+    // Updates the position of the indicator as it moves
     private void Update()
     {
         for (int i = 0; i < Indicator.Count; i++)
@@ -122,6 +124,8 @@ public class Positions : MonoBehaviour
         }
     }
 
+    // Initial placement of the tiles. Just chooses a random one from the pile and places it on the board. Not great or efficient
+    // but it works...
     public void TilePostions()
     {
         GameObject firstTile = script.TilesObjects[Random.Range(0, 23)];
@@ -221,6 +225,8 @@ public class Positions : MonoBehaviour
         script.TilesObjects.Remove(twentyfourthTile);
     }
 
+
+    // Title of Adventurer is placed on the player panels.
     public void AdventurersPositions()
     {
         FirstTitle =  script.AdventurerCardsObjects[Random.Range(0, 5)];
@@ -234,6 +240,8 @@ public class Positions : MonoBehaviour
         script.AdventurerCardsObjects.Remove(SecondTitle);
         AdvendurersInPosition.Add(SecondTitle);
 
+        // Sets the relevant Adventurers to active, and the Player that is associated with the adventurer to true
+        //... I think that makes sense
         for (int i = 0; i < script.AdventurersInstances.Count; i++)
         {
             if(script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
@@ -254,6 +262,9 @@ public class Positions : MonoBehaviour
 
     }
 
+    // Deals Initial two treasure cards to the players.
+    // Chooses a random card from the list or pile, removes it from the list and adds it to the relevant player hand
+    // Also indicates where the card should be placed in the player hand by using the lists
     public void DealingTreasureCardsToPlayers()
     {
         GameObject Player1SetupCard1 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
@@ -277,6 +288,9 @@ public class Positions : MonoBehaviour
         script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
     }
 
+    // So... Extra Crazy Code. This indicates where the movement indicator goes, depending on where the token is currently placed. It checks
+    // which player turn is currently active, then it checks which adventurer is active and if it is that adventurer is starts
+    // checking on which tiles they are placed and then it places the indicators around the token, if there are tiles.
     public void PositionsOfIndicatorsPlayer1()
     {
         if (turnsScript.Player1Turn == true)
@@ -394,10 +408,12 @@ public class Positions : MonoBehaviour
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Pilot" && script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
                     {
+                        // Pilot has different movement, which is a bit intense so it is in it's own script.
                         pilotScript.PilotMove();
                     }
                     else if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Diver" && script.AdventurersInstances[i].Title.transform.position == player1Title.transform.position)
                     {
+                        // Also has it's own movement, will be added soon
                         if (blackToken.transform.position == pos17 || blackToken.transform.position == pos21 || blackToken.transform.position == pos13)
                         {
                             if (script.TilesInstances[j].Tile.transform.position == blackToken.transform.position + new Vector3(1.4f, 0, 0))
@@ -697,6 +713,7 @@ public class Positions : MonoBehaviour
         }
     }
 
+    // Same as previous, just for player 2, because it wanted to be a hater and not work together
     public void PositionsOfIndicatorsPlayer2()
     {
         if (turnsScript.Player2Turn == true)
@@ -1117,6 +1134,7 @@ public class Positions : MonoBehaviour
         }
     }
 
+    // Removes the Indicators from the board
     public void IndicatorFin()
     {
         for (int i = 0; i < Indicator.Count; i++)
@@ -1125,6 +1143,7 @@ public class Positions : MonoBehaviour
         }
     }
 
+    // Indicator Class... should this be in the Object Manager? probably. 
     [System.Serializable]
     public class Indicators
     {

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+// Okay, so, by indicators I mean the yellow thingies that pop up and you click when you move your token
 public class IndicatorDeterminer : MonoBehaviour
 {
     Positions positionScript;
@@ -14,6 +16,7 @@ public class IndicatorDeterminer : MonoBehaviour
         script  = GameObject.Find("GameCanvas").GetComponent<ObjectManager>();
     }
 
+    // This function disables the button and image on the indicator when it is pressed.
     public void indDisable()
     {
         for (int i = 0; i < positionScript.Indicator.Count; i++)
@@ -24,6 +27,7 @@ public class IndicatorDeterminer : MonoBehaviour
         }
     }
 
+    // This function enables the button and image on the indicator when the back button or the move again burtton is pressed.
     public void indEnable()
     {
         for (int i = 0; i < positionScript.Indicator.Count; i++)
@@ -34,6 +38,8 @@ public class IndicatorDeterminer : MonoBehaviour
         }
     }
 
+    // This reverts the boolean back to false. 
+    // Boolean is relevant in the next bit.
     public void IndFin()
     {
         for (int i = 0; i < positionScript.Indicator.Count; i++)
@@ -42,6 +48,8 @@ public class IndicatorDeterminer : MonoBehaviour
         }
     }
 
+    // Okay, so, Crazy Code... and Logic. These are Booleans that are on all the indicators. When they are pressed, these go to true.
+    // This is relevant in the TokenMovement script, in the Update function.
     public void Ind1()
     {
         positionScript.Indicator[0].click = true;

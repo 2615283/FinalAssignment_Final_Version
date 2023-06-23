@@ -18,10 +18,12 @@ public class SandBags : MonoBehaviour
         shoreScript = GameObject.Find("GameCanvas").GetComponent<ShoreUp>();
     }
 
+    // Start function adds the 'Use' buttons to the Sandbag cards and the Helicopter Lift cards
     private void Start()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
         {
+            // It's supposed to say Sandbag... but Sadbag is funny, so I am not changing it. 
             if (script.TreasureCardInstances[i].Sadbag == true || script.TreasureCardInstances[i].HelicopterLift == true)
             {
                 script.TreasureCardInstances[i].UseButt.SetActive(true);
@@ -33,8 +35,10 @@ public class SandBags : MonoBehaviour
         }
     }
 
+    // When Sandbag is used
     public void SandBag()
     {
+        // Takes 1 off the Action counter to account for the fact that it does not take an action to shore up a Tile with this card
         if (turnScript.Player1Turn == true)
         {
             turnScript.Player1 -= 1;
@@ -44,6 +48,7 @@ public class SandBags : MonoBehaviour
             turnScript.Player2 -= 1;
         }
 
+        // Places Shore Up Indicators on all the flooded Tiles that are on the board
         for (int j = 0; j < script.TilesInstances.Count; j++)
         {
             for (int i = 0; i < script.TilesInstances.Count; i++)

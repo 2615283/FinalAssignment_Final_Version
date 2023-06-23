@@ -31,6 +31,7 @@ public class ShoreUp : MonoBehaviour
         moveScript = GameObject.Find("GameCanvas").GetComponent<TokenMovement>();
     }
 
+    // Start Function disables Shore Up panels at the begining of the Game and Switches off the buttons on the Tiles
     private void Start()
     {
         ShoreUpPanelP1.SetActive(false);
@@ -43,6 +44,7 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // This moves the Shore Up Indicators off the board
     public void IndsMoveAway()
     {
         for (int i = 0; i < IndicatorSU.Count; i++)
@@ -52,6 +54,9 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // Crazy Code alert... no one is surprised anymore, least of all me...
+    // Determines which Player is active and which Adventurer is active. Then, depending on where the token is, if there is a flooded Tile in it's
+    // reach, the relevant Tiles will be indicated and the buttons enabled, anabling the players to click on the Tile and shore it up.
     public void positionOfIndsP1()
     {
         if (turnsScript.Player1Turn == true)
@@ -791,6 +796,7 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // Same as above, but seperate... this code hates me... i am starting to think i don't blame it for doind so :,)
     public void positionOfIndsP2()
     {
         if (turnsScript.Player2Turn == true)
@@ -1531,10 +1537,12 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // Shores up Tile. When clicked it changes the colour back to white (except if its the Fool's landing Tile, then it goes back to red).
     public void ShoreUpAction()
     {
         for (int i = 0; i < script.TilesInstances.Count; i++)
         {
+            // Changes colour and removes it from the flooded list
             if (script.TilesInstances[i].Flooded == false && script.TilesInstances[i].Tile.GetComponent<Image>().color == Color.cyan)
             {
                 script.TilesInstances[i].Tile.GetComponent<Image>().color = Color.white;
@@ -1547,6 +1555,7 @@ public class ShoreUp : MonoBehaviour
             }
         }
 
+        // Adds to the Action tracker
         if (turnsScript.Player1Turn == true)
         {
             turnsScript.Player1 += 1;
@@ -1557,6 +1566,7 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // ENables and disables the relevant buttons and objects when pressing the shore up button
     public void ShoreUpP1Panel()
     {
         turnsScript.MoveP1.SetActive(false);
@@ -1568,6 +1578,8 @@ public class ShoreUp : MonoBehaviour
         ShoreUpPanelP1.SetActive(true);
     }
 
+    // Determines whether the action Limit was reached, if so it immediately eneablles the end turn tasks, if not it goes back to the normal
+    // actions when done is pressed
     public void ShoreUpDoneP1()
     {
         if (turnsScript.Player1 == 3)
@@ -1631,6 +1643,7 @@ public class ShoreUp : MonoBehaviour
         }
     }
 
+    // Disables Buttons on the tiles and moves the Shore up indicators away
     public void DisablingButtons()
     {
         for (int i = 0; i < script.TilesInstances.Count; i++)
@@ -1645,6 +1658,9 @@ public class ShoreUp : MonoBehaviour
             Ind.transform.position = new Vector3(0, 10, 0);
         }
     }
+
+    // The following Booleans are enabled when the Tile is pressed, so it knows whick Tiles to change the colour of and to move in 
+    // and out of a list
 
     public void ShoreUp1()
     {
@@ -1814,6 +1830,7 @@ public class ShoreUp : MonoBehaviour
         ShoreUpAction();
     }
 
+    // Shore Up Indicator Class
     [System.Serializable]
     public class ShoreUpIndicator
     {

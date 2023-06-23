@@ -30,6 +30,7 @@ public class TreasureCardTrade : MonoBehaviour
         setupScript = GameObject.Find("GameCanvas").GetComponent<Setup>();
     }
 
+    // Enables and disables relevant objects and adds things to lists
     private void Start()
     {
         GiveTreasurePanelP1.SetActive(false);
@@ -52,12 +53,16 @@ public class TreasureCardTrade : MonoBehaviour
         Tokenlist2.Add(whiteToken);
         Tokenlist2.Add(yellowToken);
 
+        // sets give buttons to false at the beginning of the game
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
         {
             script.TreasureCardInstances[i].GiveButt.SetActive(false);
         }
     }
 
+    // Checkes whether the two tokens are on the same tile. If they are, Players can give cards by pressing the enabled give button
+    // if not, Nothing happens and a message pops up saying you cant do so.
+    // Unless you are the messenger
     public void GivingTreasure()
     {
         for (int i = 0; i < script.AdventurersInstances.Count; i++)
@@ -201,6 +206,7 @@ public class TreasureCardTrade : MonoBehaviour
         }
     }
 
+    // checks if the action limit has been reached, if so, it goes to the end turn tasks immediately, if not, it goes back to the normal actions
     public void Done()
     {
         if (turnScript.Player1Turn == true)
@@ -257,6 +263,7 @@ public class TreasureCardTrade : MonoBehaviour
         }
     }
 
+    // checks if a card is in the player hand, and if so, it enables the give button
     public void GiveButtActive()
     {
         if (turnScript.Player1Turn == true)
@@ -281,6 +288,7 @@ public class TreasureCardTrade : MonoBehaviour
         }
     }
 
+    // Removes the relevant card from the player hand and adds it to the other player's hand after checking whether the give boolean is true
     public void CardChangeHand()
     {
         if (turnScript.Player1Turn == true)
@@ -329,6 +337,7 @@ public class TreasureCardTrade : MonoBehaviour
         }
     }
 
+    //Changes the give boolean to false
     public void GiveFalse()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -337,6 +346,9 @@ public class TreasureCardTrade : MonoBehaviour
             script.TreasureCardInstances[i].GiveButt.SetActive(false);
         }
     }
+
+    // The following are booleans that when the give button is pressed, the boolean is enables and the above code
+    // (CardsChangHands) can run
 
     public void Give1()
     {

@@ -29,6 +29,7 @@ public class HelicopterLift : MonoBehaviour
         pilotScript = GameObject.Find("GameCanvas").GetComponent<PilotScript>();
     }
 
+    // This Start function disables all the panels and buttons that have to do with the helicopter lift card, at the start of the game
     private void Start()
     {
         HelicopterPanel1.SetActive(false);
@@ -40,12 +41,17 @@ public class HelicopterLift : MonoBehaviour
         
     }
 
+    // This Update function tracks some of teh losing conditions.
+    // It loads the scene that tells you that you have lost.
     private void Update()
     {
+        // This is if the Fool's Landing Tile is sunk
         if (script.Sunk.Contains(script.TilesInstances[12].Tile))
         {
             SceneManager.LoadScene(2);
         }
+
+        //The rest is if both of the tiles where you could get one of the treasures is sunk
 
         if (script.Sunk.Contains(script.TilesInstances[7].Tile) && script.Sunk.Contains(script.TilesInstances[23].Tile))
         {
@@ -68,6 +74,7 @@ public class HelicopterLift : MonoBehaviour
         }
     }
 
+    // Enables the correct panel when the Helicopter lift card is used
     public void HelicopterPanel()
     {
         OnHelicopterLift();
@@ -82,12 +89,15 @@ public class HelicopterLift : MonoBehaviour
         }
     }
 
+    // Indicates whether the tokens are on the Fool's Landing Tile
     public void OnHelicopterLift()
     {
         if (turnsScript.Player1Turn == true)
         {
             for (int i = 0; i < script.TilesInstances.Count; i++)
             {
+                // These if statements check whether the position of the token and the Tile is the same and that the Tile is in fact 
+                // the Fool's landing tile. Here is some Crazy Code: Light Mode :/
                 if (posScript.greenToken.transform.position == script.TilesInstances[i].Tile.transform.position && script.TilesInstances[i].TileName == "Fool's Landing")
                 {
                     HelicopterLift1.SetActive(true);
@@ -146,6 +156,7 @@ public class HelicopterLift : MonoBehaviour
         }
     }
 
+    // This is put on the button you press to Lift said Helicopter when you want to finish the game
     public void HelicopterLiftButt()
     {
         if (turnsScript.Player1Turn == true)
@@ -156,6 +167,8 @@ public class HelicopterLift : MonoBehaviour
                 {
                     for (int i = 0; i < script.AdventurersInstances.Count; i++)
                     {
+                        // Determines whether both the players are on the Fool's landing tile and that the captured treasure list contains
+                        // all the treasures
                         if (script.AdventurersInstances[j].Player1 == true && script.AdventurersInstances[i].Player2 == true)
                         {
                             if (script.AdventurersInstances[j].Token.transform.position == script.TilesInstances[k].Tile.transform.position && script.AdventurersInstances[i].Token.transform.position == script.TilesInstances[k].Tile.transform.position && script.TilesInstances[i].TileName == "Fool's Landing")
@@ -194,6 +207,8 @@ public class HelicopterLift : MonoBehaviour
         }
     }
 
+    // Move button for the Helicopter Lift action where you can take the tokens anywhere on the board. There is one for Player 1 and one for 
+    // Player 2, cause when I put it in one function, it hated me :,)
     public void MoveButt1()
     {
        pilotScript.PilotMove();
@@ -238,6 +253,8 @@ public class HelicopterLift : MonoBehaviour
         }
     }
 
+    // Had the same issue with the done button. This just reverts everything's state back to what it was before you used the Helicopter Lift
+    // card (in the UI bit I mean)
     public void Done1()
     {
         turnsScript.Player2Turn = false;

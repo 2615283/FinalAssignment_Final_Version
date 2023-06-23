@@ -18,6 +18,8 @@ public class DrawFloodCard : MonoBehaviour
 
     public void DrawFloodCards()
     {
+        // Adds the flood cards back into the pile when they run out, or in other words when they less
+        // than the amount that needs to be drawn at the end of a turn.
         if (script.FloodCards.Count <= riseScript.DrawCardsInt)
         {
             for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
@@ -27,6 +29,8 @@ public class DrawFloodCard : MonoBehaviour
             }
         }
 
+        // This is the cards that are drawn at the end of each turn. A random one is chosen out of the deck,
+        // it's clolour is changed and it is removed from the floodcards list and added to the discard pile.
         for (int i = 0; i < riseScript.DrawCardsInt; i++)
         {
             GameObject Tile = script.FloodCards[Random.Range(0, script.FloodCards.Count)];
@@ -34,6 +38,7 @@ public class DrawFloodCard : MonoBehaviour
             script.FloodCards.Remove(Tile);
             script.FloodCardsDiscard.Add(Tile);
 
+            // The following determines whether the tile needs to be sunk or not.
             if (script.Flooded.Contains(Tile))
             {
                 script.Sunk.Add(Tile);
@@ -47,6 +52,7 @@ public class DrawFloodCard : MonoBehaviour
             }
         }
 
+        // Changes the state of the tile to flooded
         for (int i = 0; i < script.TilesInstances.Count; i++)
         {
             if (script.TilesInstances[i].Tile.GetComponent<Image>().color == Color.cyan)
@@ -56,6 +62,7 @@ public class DrawFloodCard : MonoBehaviour
         }
     }
 
+    // The following two functions just disables the buttons when they are pressed
     public void FloodCardsButtP1()
     {
         turnScript.DrawFloodP1.SetActive(false);

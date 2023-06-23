@@ -16,6 +16,7 @@ public class TreasureCardDiscard : MonoBehaviour
         turnScript = GameObject.Find("GameCanvas").GetComponent<PlayerTurns>();
     }
 
+    // Disables the Discard buttons
     private void Start()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -24,6 +25,8 @@ public class TreasureCardDiscard : MonoBehaviour
         }
     }
 
+    // Update function checks if the Discard Pile contains a certain card and then disables the discard button
+    // Also checks if the treasure cards run out. If the Treasure cards count reaches 1 or less, the cards in the discard pile goes back into the card pile
     private void Update()
     {   
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -44,6 +47,8 @@ public class TreasureCardDiscard : MonoBehaviour
         }
     }
 
+    // Checks if the hand amount has exceeded its limit when treasure cards are drawn. If it has exceeded 5, the dic=scard panel and buttons are
+    // enabled
     public void DiscardStuff()
     {
         if (turnScript.Player1Turn == true)
@@ -107,6 +112,8 @@ public class TreasureCardDiscard : MonoBehaviour
         }
     }
 
+    // checks player turn, and if the discard button is pressed, the discard boolean is enabled and the card is added to the 
+    // discard pile, and removed from the player hand. The cards in the player hand then moves accordingly.
     public void DiscardCard()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -138,6 +145,7 @@ public class TreasureCardDiscard : MonoBehaviour
         }        
     }
 
+    // Changes all the Discard booleans to false
     public void DiscardFalse()
     {
         for (int i = 0; i < script.TreasureCardInstances.Count; i++)
@@ -145,6 +153,9 @@ public class TreasureCardDiscard : MonoBehaviour
             script.TreasureCardInstances[i].Discard = false;
         }
     }
+
+    // The following is the discard Booleans. when the Discard button is pressed, the boolean is set to true, an the above code (DiscardCard)
+    // can run
 
     public void Discard1()
     {

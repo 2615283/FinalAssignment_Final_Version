@@ -11,6 +11,8 @@ public class PlayerTurns : MonoBehaviour
     TokenMovement movementScript;
     ShoreUp shoreScript;
 
+
+    // Many, many objects. This was me making a lot of work for myself.
     public GameObject MoveP1;
     public GameObject ShoreUpP1;
     public GameObject GiveTreasureP1;
@@ -54,6 +56,8 @@ public class PlayerTurns : MonoBehaviour
         shoreScript = GameObject.Find("GameCanvas").GetComponent<ShoreUp>();
     }
 
+
+    // Start function Enables and Disables relevant objects
     private void Start()
     {
         MoveP1.SetActive(true);
@@ -79,6 +83,7 @@ public class PlayerTurns : MonoBehaviour
         WaterRise.SetActive(false);
     }
 
+    // This Update function tracks the player actions, and disables the ability to do an action again, if the action limit is reached
     private void Update()
     {
         if (Player1 == 3)
@@ -93,6 +98,7 @@ public class PlayerTurns : MonoBehaviour
         }
     }
 
+    // End of turn tasks. Just disables the actions and enables the tasks
     public void Player1TurnEndTasks()
     {
         MoveP1.SetActive(false);
@@ -104,17 +110,20 @@ public class PlayerTurns : MonoBehaviour
         DrawTreasureP1.SetActive(true);
     }
 
+    //Disables the First task and then enables the next one
     public void Player1TreasureCard()
     {
         DrawFloodP1.SetActive(true);
         WaterRise.SetActive(true);
     }
 
+    //Enables the Done button
     public void Player1FloodCard()
     {
         DoneP1.SetActive(true);
     }
 
+    // Reverts All the UI back to whatit was before the turn started
     public void Player1Done()
     {
         TurnRevert();
@@ -197,6 +206,7 @@ public class PlayerTurns : MonoBehaviour
         Player2Turn = false;
     }
 
+    // This function is put on a button so when it is pressed the turns are added to.
     public void TurnsIndicator()
     {
         if (Player1Turn == true)
@@ -209,6 +219,7 @@ public class PlayerTurns : MonoBehaviour
         }
     }
 
+    //Reverts all the Actions back to zero
     public void TurnRevert()
     {
         if (Player1Turn == true)

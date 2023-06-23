@@ -32,9 +32,12 @@ public class WaterRise : MonoBehaviour
 
     private void Update()
     {
+        // Meter Text
         WaterLevel.text = "" + WaterLevelInt;
         DrawCards.text = "" + DrawCardsInt;
 
+        // Water Level from level 2 to 10. If it goes up, it adds the flood cards in the discard list back to the card list
+        // At level Ten it takes the player to the Lose Scene
         if (WaterLevelInt == 2)
         {
             for (int i = 0; i < script.FloodCardsDiscard.Count; i++)
@@ -104,7 +107,7 @@ public class WaterRise : MonoBehaviour
             SceneManager.LoadScene(2);
         }
         
-
+        // This tracks if a Water Rise card goes into aplayer hand. if it does, it gets removed and the Water level gets increased by 1
         if (turnScript.Player1Turn == true)
         {
             if (script.Player1TreasureCards.Contains(WaterRise1))
@@ -166,6 +169,7 @@ public class WaterRise : MonoBehaviour
             }
         }
 
+        // This indicates the amount of flood cards that are drawn at different levels.
         if (WaterLevelInt == 1 || WaterLevelInt == 2)
         {
             DrawCardsInt = 2;

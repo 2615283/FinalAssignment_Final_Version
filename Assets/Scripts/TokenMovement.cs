@@ -37,20 +37,25 @@ public class TokenMovement : MonoBehaviour
         indScript = GameObject.Find("GameCanvas").GetComponent<IndicatorDeterminer>();
     }
 
+    // Disables the move panels
     private void Start()
     {
         P1MovePanel.SetActive(false);
         P2MovePanel.SetActive(false);
     }
 
+    // Update function where the movement happens
+    // Comments in code will explain more clearly
     private void Update()
     {
         for (int i = 0; i < script.AdventurersInstances.Count; i++)
         {
             for (int j = 0; j < posScript.Indicator.Count; j++)
             {
+                // Check player turn
                 if (turnScript.Player1Turn == true)
                 {
+                    // Check whether Indicator was clicked and then move relevant token to relevant tile
                     if (posScript.Indicator[j].click == true)
                     {
                         if (script.AdventurersInstances[i].Active == true && script.AdventurersInstances[i].AdventurerType == "Explorer" && script.AdventurersInstances[i].Title.transform.position == posScript.player1Title.transform.position)
@@ -113,6 +118,7 @@ public class TokenMovement : MonoBehaviour
         }
     }
 
+    // Disables buttons on the Indicators
     public void DisableButton()
     {
         for (int i = 0; i < script.TilesInstances.Count; i++)
@@ -122,6 +128,8 @@ public class TokenMovement : MonoBehaviour
         }
     }
 
+    // Initial placement of the tokens on the relevant Tiles.
+    // Checks whether the Adventurer is active and then to place it on the relevant starting tile
     public void InitialPlacement()
     {
         for (int i = 0; i < script.AdventurersInstances.Count; i++)
@@ -156,12 +164,15 @@ public class TokenMovement : MonoBehaviour
         }
     }
 
+    // Disables the actions
+    // Enables the move panel
     public void MoveP1Button()
     {
         setupScript.Player1Actions.SetActive(false);
         P1MovePanel.SetActive(true);
     }
 
+    // Checks whether the action limit has been reached, if so, it immediately goes to the end turn tasks, if not, it goes back to the actions
     public void DoneMoveP1()
     {
         if (turnScript.Player1 == 3)
@@ -206,16 +217,5 @@ public class TokenMovement : MonoBehaviour
             setupScript.Player2Actions.SetActive(true);
             P2MovePanel.SetActive(false);
         }
-    }
-
-    public void Movement()
-    {
-        
-        
-        
-
-        
-
-        
     }
 }

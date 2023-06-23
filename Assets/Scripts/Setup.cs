@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// This script sets up the UI for the Game
 public class Setup : MonoBehaviour
 {
     public GameObject Player1;
@@ -35,6 +36,7 @@ public class Setup : MonoBehaviour
         discardScript = GameObject.Find("GameCanvas").GetComponent<TreasureCardDiscard>();
     }
 
+    // Enables and Disables the relevant objects at the beginning of the game
     private void Start()
     {
         SetUp.SetActive(true);
@@ -53,12 +55,14 @@ public class Setup : MonoBehaviour
         playerButton.SetActive(false);
     }
 
+    // Takes Board Button away and adds Player Button
     public void BoardButton()
     {
         boardButton.SetActive(false);
         playerButton.SetActive(true);
     }
 
+    //Enables objects or rather Buttons and panels for the players
     public void PlayerButton()
     {
         Player1.SetActive(true);
@@ -72,11 +76,13 @@ public class Setup : MonoBehaviour
         discardScript.DiscardPanelP2.SetActive(false);
     }
 
+    // Takes away Adventurer button
     public void AdventurerButton()
     {
         adventurerButton.SetActive(false);
     }
 
+    // Takes away Treasure card button and adds the Water rise card stuff to the relevant lists
     public void TreasureCardButton()
     {
         treasureCardsButton.SetActive(false);
@@ -88,10 +94,12 @@ public class Setup : MonoBehaviour
         }
     }
 
+    // Floods the Initial 6 Tiles
     public void FloodInitialButton()
     {
         floodInitialButton.SetActive(false);
 
+        // Chooses random Tile, change it's color to cyan, remove it from the Flood Cards and add it to the dircard pile as well as to the flooded pile
         for (int i = 0; i < 6; i++)
         {
             GameObject Tile = script.FloodCards[Random.Range(0, script.FloodCards.Count)];
@@ -101,6 +109,7 @@ public class Setup : MonoBehaviour
             script.Flooded.Add(Tile);
         }
 
+        // Sets the Tile to flooded
         for (int i = 0; i < script.TilesInstances.Count; i++)
         {
             if (script.TilesInstances[i].Tile.GetComponent<Image>().color == Color.cyan)
@@ -112,6 +121,7 @@ public class Setup : MonoBehaviour
         Begin.SetActive(true);
     }
 
+    // Disables Initial setup stuff and starts the game by enabling Player 1's stuff.
     public void BeginButton()
     {
         SetUp.SetActive(false);
