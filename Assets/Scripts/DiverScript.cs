@@ -21,86 +21,54 @@ public class DiverScript : MonoBehaviour
     {
         for (int j = 0; j < script.TilesInstances.Count; j++)
         {
-            if (posScript.blackToken.transform.position == posScript.pos17 || posScript.blackToken.transform.position == posScript.pos21 || posScript.blackToken.transform.position == posScript.pos13)
+            if (posScript.blackToken.transform.position == posScript.grid[0,2] || posScript.blackToken.transform.position == posScript.grid[1, 1] || posScript.blackToken.transform.position == posScript.grid[2, 0])
             {
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position + new Vector3(1.4f, 0, 0))
                 {
                     posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(1.4f, 0, 0);
                 }
-                else
-                {
-                    posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(2.8f, 0, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0);
                 }
-                else
-                {
-                    posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 2.8f, 0);
-                }
                 posScript.Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                 posScript.Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
             }
-            else if (posScript.blackToken.transform.position == posScript.pos18 || posScript.blackToken.transform.position == posScript.pos22 || posScript.blackToken.transform.position == posScript.pos14)
+            else if (posScript.blackToken.transform.position == posScript.grid[0, 3] || posScript.blackToken.transform.position == posScript.grid[1, 4] || posScript.blackToken.transform.position == posScript.grid[2, 5])
             {
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0))
                 {
                     posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0);
                 }
-                else
-                {
-                    posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(2.8f, 0, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0);
                 }
-                else
-                {
-                    posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 2.8f, 0);
-                }
                 posScript.Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                 posScript.Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
             }
-            else if (posScript.blackToken.transform.position == posScript.pos15 || posScript.blackToken.transform.position == posScript.pos23 || posScript.blackToken.transform.position == posScript.pos19)
+            else if (posScript.blackToken.transform.position == posScript.grid[3, 0] || posScript.blackToken.transform.position == posScript.grid[4, 1] || posScript.blackToken.transform.position == posScript.grid[5, 2])
             {
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position + new Vector3(1.4f, 0, 0))
                 {
                     posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(1.4f, 0, 0);
                 }
-                else
-                {
-                    posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(2.8f, 0, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0);
                 }
-                else
-                {
-                    posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 2.8f, 0);
-                }
                 posScript.Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                 posScript.Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
             }
-            else if (posScript.blackToken.transform.position == posScript.pos16 || posScript.blackToken.transform.position == posScript.pos24 || posScript.blackToken.transform.position == posScript.pos20)
+            else if (posScript.blackToken.transform.position == posScript.grid[3, 5] || posScript.blackToken.transform.position == posScript.grid[4, 4] || posScript.blackToken.transform.position == posScript.grid[5, 3])
             {
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0))
                 {
                     posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0);
                 }
-                else
-                {
-                    posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(2.8f, 0, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0);
-                }
-                else
-                {
-                    posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 2.8f, 0);
                 }
                 posScript.Indicator[2].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                 posScript.Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
@@ -111,33 +79,17 @@ public class DiverScript : MonoBehaviour
                 {
                     posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(1.4f, 0, 0);
                 }
-                else
-                {
-                    posScript.Indicator[0].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(2.8f, 0, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0))
                 {
                     posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(1.4f, 0, 0);
-                }
-                else
-                {
-                    posScript.Indicator[1].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(2.8f, 0, 0);
                 }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[2].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 1.4f, 0);
                 }
-                else
-                {
-                    posScript.Indicator[2].IndicatorObject.transform.position = posScript.blackToken.transform.position + new Vector3(0, 2.8f, 0);
-                }
                 if (script.TilesInstances[j].Tile.transform.position == posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0))
                 {
                     posScript.Indicator[3].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 1.4f, 0);
-                }
-                else
-                {
-                    posScript.Indicator[3].IndicatorObject.transform.position = posScript.blackToken.transform.position - new Vector3(0, 2.8f, 0);
                 }
             }
         }

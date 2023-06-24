@@ -10,6 +10,8 @@ public class Positions : MonoBehaviour
     PilotScript pilotScript;
     DiverScript diverScript;
 
+    public Vector3[,] grid = new Vector3[6,6];
+
     public GameObject player1Title;
     public GameObject player2Title;
 
@@ -22,6 +24,9 @@ public class Positions : MonoBehaviour
     public GameObject greenToken;
     public GameObject whiteToken;
     public GameObject yellowToken;
+
+    public int x = 6;
+    public int y = 6;
 
     //positions
     #region
@@ -91,6 +96,33 @@ public class Positions : MonoBehaviour
         pos23 = new Vector3(-2.1f, -2.1f);
         pos24 = new Vector3(2.1f, -2.1f);
 
+        grid[0, 2] = pos17;
+        grid[0, 3] = pos18;        
+        grid[1, 1] = pos21;
+        grid[1, 2] = pos5;
+        grid[1, 3] = pos6;
+        grid[1, 4] = pos22;
+        grid[2, 0] = pos13;
+        grid[2, 1] = pos9;
+        grid[2, 2] = pos1;
+        grid[2, 3] = pos2;
+        grid[2, 4] = pos10;
+        grid[2, 5] = pos14;
+        grid[3, 0] = pos15;
+        grid[3, 1] = pos11;
+        grid[3, 2] = pos3;
+        grid[3, 3] = pos4;
+        grid[3, 4] = pos12;
+        grid[3, 5] = pos16;
+        grid[4, 1] = pos23;
+        grid[4, 2] = pos7;
+        grid[4, 3] = pos8;
+        grid[4, 4] = pos24;
+        grid[5, 2] = pos19;
+        grid[5, 3] = pos20;
+
+        Debug.Log(grid[0,0]);
+
         pos.Add(pos1);
         pos.Add(pos2);
         pos.Add(pos3);
@@ -123,6 +155,22 @@ public class Positions : MonoBehaviour
         for (int i = 0; i < Indicator.Count; i++)
         {
             Indicator[i].pos = Indicator[i].IndicatorObject.transform.position;
+        }
+
+        if (script.Player1TreasureCards.Count > 0)
+        {
+            for (int i = 0; i < script.Player1TreasureCards.Count; i++)
+            {
+                script.Player1TreasureCards[i].transform.position = script.Player1TreasureCardsSpaces[i].transform.position;
+            }
+        }
+
+        if (script.Player2TreasureCards.Count > 0)
+        {
+            for (int i = 0; i < script.Player2TreasureCards.Count; i++)
+            {
+                script.Player2TreasureCards[i].transform.position = script.Player2TreasureCardsSpaces[i].transform.position;
+            }
         }
     }
 
@@ -272,22 +320,18 @@ public class Positions : MonoBehaviour
         GameObject Player1SetupCard1 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
         script.Player1TreasureCards.Add(Player1SetupCard1);
         script.TreasureCardsObjects.Remove(Player1SetupCard1);
-        script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-
+        
         GameObject Player1SetupCard2 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
         script.Player1TreasureCards.Add(Player1SetupCard2);
         script.TreasureCardsObjects.Remove(Player1SetupCard2);
-        script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-
+        
         GameObject Player2SetupCard1 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
         script.Player2TreasureCards.Add(Player2SetupCard1);
         script.TreasureCardsObjects.Remove(Player2SetupCard1);
-        script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
-
+        
         GameObject Player2SetupCard2 = script.TreasureCardsObjects[Random.Range(0, script.TreasureCardsObjects.Count)];
         script.Player2TreasureCards.Add(Player2SetupCard2);
         script.TreasureCardsObjects.Remove(Player2SetupCard2);
-        script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
     }
 
     // So... Extra Crazy Code. This indicates where the movement indicator goes, depending on where the token is currently placed. It checks

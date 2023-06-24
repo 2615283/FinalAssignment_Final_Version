@@ -125,7 +125,6 @@ public class TreasureCardDiscard : MonoBehaviour
                     script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     script.TreasureCardsDiscard.Add(script.TreasureCardInstances[i].CardType);
                     script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
-                    script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
                 }
             }
         }
@@ -139,7 +138,6 @@ public class TreasureCardDiscard : MonoBehaviour
                     script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     script.TreasureCardsDiscard.Add(script.TreasureCardInstances[i].CardType);
                     script.TreasureCardInstances[i].CardType.transform.position = new Vector3(20, 0, 0);
-                    script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
                 }
             }
         }        

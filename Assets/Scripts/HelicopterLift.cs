@@ -223,8 +223,8 @@ public class HelicopterLift : MonoBehaviour
                 {
                     if (script.AdventurersInstances[i].Token.transform.position == script.AdventurersInstances[j].Token.transform.position)
                     {
-                        turnsScript.Player2Turn = true;
                         pilotScript.PilotMove();
+                        turnsScript.Player2Turn = true;
                     }
                 }
             }
@@ -245,8 +245,8 @@ public class HelicopterLift : MonoBehaviour
                 {
                     if (script.AdventurersInstances[i].Token.transform.position == script.AdventurersInstances[j].Token.transform.position)
                     {
-                        turnsScript.Player1Turn = true;
                         pilotScript.PilotMove();
+                        turnsScript.Player1Turn = true;
                     }
                 }
             }

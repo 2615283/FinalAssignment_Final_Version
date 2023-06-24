@@ -10454,6 +10454,7 @@ GameObject:
   - component: {fileID: 575931686}
   - component: {fileID: 575931687}
   - component: {fileID: 575931688}
+  - component: {fileID: 575931689}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -11505,6 +11506,8 @@ MonoBehaviour:
   greenToken: {fileID: 1158492211}
   whiteToken: {fileID: 1690403816}
   yellowToken: {fileID: 641199261}
+  x: 0
+  y: 0
   pos1: {x: 0, y: 0, z: 0}
   pos2: {x: 0, y: 0, z: 0}
   pos3: {x: 0, y: 0, z: 0}
@@ -11924,6 +11927,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Engineer: 0
+--- !u!114 &575931689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575931666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d972ec1cb24e042a080bd54bd53a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &576683170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4939775912538425532, guid: 1505d44b490a971478e9600a852aac66, type: 3}

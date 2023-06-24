@@ -308,8 +308,6 @@ public class TreasureCardTrade : MonoBehaviour
                     script.Player1TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     script.Player2TreasureCards.Add(script.TreasureCardInstances[i].CardType);
 
-                    script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-                    script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
                 }
             }
         }
@@ -330,8 +328,6 @@ public class TreasureCardTrade : MonoBehaviour
                     script.Player2TreasureCards.Remove(script.TreasureCardInstances[i].CardType);
                     script.Player1TreasureCards.Add(script.TreasureCardInstances[i].CardType);
 
-                    script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
-                    script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
                 }
             }
         }
