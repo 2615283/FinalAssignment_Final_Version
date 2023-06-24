@@ -279,13 +279,13 @@ public class Positions : MonoBehaviour
     // Title of Adventurer is placed on the player panels.
     public void AdventurersPositions()
     {
-        FirstTitle =  script.AdventurerCardsObjects[Random.Range(0, 5)];
+        FirstTitle =  script.AdventurerCardsObjects[Random.Range(0, 3)];
         FirstTitle.transform.position = player1Title.transform.position;
         script.AdventurerCardsObjects.Remove(FirstTitle);
         AdvendurersInPosition.Add(FirstTitle);
 
 
-        SecondTitle = script.AdventurerCardsObjects[Random.Range(0, 4)];
+        SecondTitle = script.AdventurerCardsObjects[Random.Range(0, 2)];
         SecondTitle.transform.position = player2Title.transform.position;
         script.AdventurerCardsObjects.Remove(SecondTitle);
         AdvendurersInPosition.Add(SecondTitle);
@@ -361,8 +361,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
 
                         }
                         else if (greenToken.transform.position == pos18 || greenToken.transform.position == pos22 || greenToken.transform.position == pos14)
@@ -379,8 +388,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == pos15 || greenToken.transform.position == pos23 || greenToken.transform.position == pos19)
                         {
@@ -396,8 +414,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == pos16 || greenToken.transform.position == pos24 || greenToken.transform.position == pos20)
                         {
@@ -413,8 +440,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else
                         {
@@ -714,8 +750,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
 
                         }
                         else if (greenToken.transform.position == pos18 || greenToken.transform.position == pos22 || greenToken.transform.position == pos14)
@@ -732,8 +777,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == pos15 || greenToken.transform.position == pos23 || greenToken.transform.position == pos19)
                         {
@@ -749,8 +803,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, -1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, -1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else if (greenToken.transform.position == pos16 || greenToken.transform.position == pos24 || greenToken.transform.position == pos20)
                         {
@@ -766,8 +829,17 @@ public class Positions : MonoBehaviour
                             {
                                 Indicator[2].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(-1.4f, 1.4f, 0);
                             }
-                            Indicator[3].IndicatorObject.transform.position = new Vector3(0, 10, 0);
-                            Indicator[4].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position + new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[3].IndicatorObject.transform.position = greenToken.transform.position + new Vector3(1.4f, 1.4f, 0);
+                            }
+                            if (script.TilesInstances[j].Tile.transform.position == greenToken.transform.position - new Vector3(1.4f, 1.4f, 0))
+                            {
+                                Indicator[4].IndicatorObject.transform.position = greenToken.transform.position - new Vector3(1.4f, 1.4f, 0);
+                            }
+                            Indicator[5].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[6].IndicatorObject.transform.position = new Vector3(0, 10, 0);
+                            Indicator[7].IndicatorObject.transform.position = new Vector3(0, 10, 0);
                         }
                         else
                         {

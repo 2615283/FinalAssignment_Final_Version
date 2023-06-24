@@ -48,29 +48,29 @@ public class HelicopterLift : MonoBehaviour
         // This is if the Fool's Landing Tile is sunk
         if (script.Sunk.Contains(script.TilesInstances[12].Tile))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         //The rest is if both of the tiles where you could get one of the treasures is sunk
 
         if (script.Sunk.Contains(script.TilesInstances[7].Tile) && script.Sunk.Contains(script.TilesInstances[23].Tile))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         if (script.Sunk.Contains(script.TilesInstances[11].Tile) && script.Sunk.Contains(script.TilesInstances[22].Tile))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         if (script.Sunk.Contains(script.TilesInstances[2].Tile) && script.Sunk.Contains(script.TilesInstances[19].Tile))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         if (script.Sunk.Contains(script.TilesInstances[3].Tile) && script.Sunk.Contains(script.TilesInstances[8].Tile))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
 
@@ -175,7 +175,7 @@ public class HelicopterLift : MonoBehaviour
                             {
                                 if (treasureScript.Capturedtreasures.Contains(treasureScript.EarthStone) && treasureScript.Capturedtreasures.Contains(treasureScript.OceansChalice) && treasureScript.Capturedtreasures.Contains(treasureScript.CrystalOfFire) && treasureScript.Capturedtreasures.Contains(treasureScript.StatueOfTheWind))
                                 {
-                                    SceneManager.LoadScene(1);
+                                    SceneManager.LoadScene(2);
                                 }
                             }
                         }
@@ -197,7 +197,7 @@ public class HelicopterLift : MonoBehaviour
                             {
                                 if (treasureScript.Capturedtreasures.Contains(treasureScript.EarthStone) && treasureScript.Capturedtreasures.Contains(treasureScript.OceansChalice) && treasureScript.Capturedtreasures.Contains(treasureScript.CrystalOfFire) && treasureScript.Capturedtreasures.Contains(treasureScript.StatueOfTheWind))
                                 {
-                                    SceneManager.LoadScene(1);
+                                    SceneManager.LoadScene(2);
                                 }
                             }
                         }

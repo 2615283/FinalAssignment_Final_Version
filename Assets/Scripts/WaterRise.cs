@@ -104,7 +104,7 @@ public class WaterRise : MonoBehaviour
         }
         else if (WaterLevelInt == 10)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
         
         // This tracks if a Water Rise card goes into aplayer hand. if it does, it gets removed and the Water level gets increased by 1
@@ -115,8 +115,7 @@ public class WaterRise : MonoBehaviour
                 script.Player1TreasureCards.Remove(WaterRise1);
                 script.TreasureCardsDiscard.Add(WaterRise1);
                 WaterRise1.transform.position = new Vector3(20, 0, 0);
-                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-
+                
                 WaterLevelInt += 1;
             }
             else if (script.Player1TreasureCards.Contains(WaterRise2))
@@ -124,8 +123,7 @@ public class WaterRise : MonoBehaviour
                 script.Player1TreasureCards.Remove(WaterRise2);
                 script.TreasureCardsDiscard.Add(WaterRise2);
                 WaterRise2.transform.position = new Vector3(20, 0, 0);
-                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-
+                
                 WaterLevelInt += 1;
             }
             else if (script.Player1TreasureCards.Contains(WaterRise3))
@@ -133,8 +131,7 @@ public class WaterRise : MonoBehaviour
                 script.Player1TreasureCards.Remove(WaterRise3);
                 script.TreasureCardsDiscard.Add(WaterRise3);
                 WaterRise3.transform.position = new Vector3(20, 0, 0);
-                script.Player1TreasureCards[script.Player1TreasureCards.Count - 1].transform.position = script.Player1TreasureCardsSpaces[script.Player1TreasureCards.Count - 1].transform.position;
-
+                
                 WaterLevelInt += 1;
             }
         }
@@ -145,8 +142,7 @@ public class WaterRise : MonoBehaviour
                 script.Player2TreasureCards.Remove(WaterRise1);
                 script.TreasureCardsDiscard.Add(WaterRise1);
                 WaterRise1.transform.position = new Vector3(20, 0, 0);
-                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
-
+                
                 WaterLevelInt += 1;
             }
             else if (script.Player2TreasureCards.Contains(WaterRise2))
@@ -154,8 +150,7 @@ public class WaterRise : MonoBehaviour
                 script.Player2TreasureCards.Remove(WaterRise2);
                 script.TreasureCardsDiscard.Add(WaterRise2);
                 WaterRise2.transform.position = new Vector3(20, 0, 0);
-                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
-
+                
                 WaterLevelInt += 1;
             }
             else if (script.Player2TreasureCards.Contains(WaterRise3))
@@ -163,7 +158,6 @@ public class WaterRise : MonoBehaviour
                 script.Player2TreasureCards.Remove(WaterRise3);
                 script.TreasureCardsDiscard.Add(WaterRise3);
                 WaterRise3.transform.position = new Vector3(20, 0, 0);
-                script.Player2TreasureCards[script.Player2TreasureCards.Count - 1].transform.position = script.Player2TreasureCardsSpaces[script.Player2TreasureCards.Count - 1].transform.position;
 
                 WaterLevelInt += 1;
             }
